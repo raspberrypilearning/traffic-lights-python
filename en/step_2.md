@@ -2,12 +2,5 @@
 
 ### Hardware
 
-+ List hardware here, or delete section.
-
-### Software
-
-+ List software here, or delete section.
-
-### Additional Resources
-
-+ List additional resources, or delete section.
+- Raspberry Pi
+- pi-stop traffic lights or 3x LEDs and resistors

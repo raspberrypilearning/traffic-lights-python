@@ -6,11 +6,13 @@ duration: 2 # possible values: 1, 2 or 3
 listed: false
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "animals, big-project, art and design, jokes/pranks, space, photography, nature/outside/weather, music/sound, physical computing, games, robots, geography"
-technologies: "electronics, sense-hat, physical computing, html/css, scratch, python"
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "electronics, physical computing, python"
 site_areas:
 steps:
   - title: Introduction
   - title: What you will need
   - title: Connect the LEDs
+  - title: Control the LEDs
+  - title: Traffic lights sequence
