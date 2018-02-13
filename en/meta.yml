@@ -1,6 +1,6 @@
 title: Control a Traffic Lights Sequence with Python
 hero_image: images/banner.png
-description: traffic-lights-python description
+description: Learn to control traffic light LEDs and code a traffic lights sequence using Python
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
 listed: false
