@@ -1,9 +1,9 @@
-## Connect the LEDs
+## LEDを接続する
 
-1. Connect your LEDs to the following pins:
+1. LEDを次のピンに接続します。
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| LED  | GPIOピン |
+| ---- |:------:|
+| 赤    |   22   |
+| アンバー |   27   |
+| 緑    |   17   |
