@@ -1,33 +1,21 @@
-## Control the LEDs
+## Bedien de LED's
 
-1. Open Python 3 from the main menu, and open a new file.
+1. Open Python 3 in het hoofdmenu en open een nieuw bestand.
 
-2. Enter the following code:
+2. Voer de volgende code in:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-
-red.blink()
+van gpiozero importeren LED rood = LED (22) red.blink ()
 ```
 
-3. Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+3. Sla nu je programma op en druk op **F5** om uw code uit te voeren. Je zou het rode lampje continu aan en uit moeten zien flitsen.
 
-4. Now modify your code to introduce the other two lights, and make them blink at different speeds:
+4. Pas nu uw code aan om de andere twee lampen te introduceren en laat ze op verschillende snelheden knipperen:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+van gpiozero importeren LED rood = LED (22) oranje = LED (27) groen = LED (17) rood. knipperen (1, 1) amber.blink (2, 2) green.blink (3, 3)
 ```
 
-5. Run your code again and you should see the three lights flashing at different rates.
+5. Voer uw code opnieuw uit en u zou de drie lampjes met verschillende snelheden moeten zien knipperen.
 
-6. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+6. Als een groter getal het lampje langzamer laat knipperen, welk cijfer zou het dan sneller laten werken? Probeer je lichten sneller te laten knipperen.
