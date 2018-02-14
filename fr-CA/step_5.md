@@ -1,20 +1,42 @@
-## Séquence de feux de circulation
+## Séquence de feux de signalisation
 
-1. Le `on` fonction vous permet d'allumer une lumière. Vous pouvez utiliser `sleep` pour faire une pause entre les commandes. Essayez cet exemple pour allumer les lumières en séquence:
+1. La fonction `on` vous permet d'allumer un feux. Vous pouvez utiliser `sleep` pour faire une pause entre les commandes. Essayez cet exemple pour allumer les feux en séquence:
     
     ```python
-à partir de gpiozero import LED à partir de l'heure d'importation sommeil rouge = LED (22) ambre = LED (27) vert = LED (17) red.on () sommeil (1) amber.on () sommeil (1) green.on () sommeil (1)
+from gpiozero import LED
+from time import sleep
+
+rouge = LED(22)
+jaune = LED(27)
+vert = LED(17)
+
+rouge.on()
+sleep(1)
+jaune.on()
+sleep(1)
+vert.on()
+sleep(1)
 ```
 
-Les commandes principales des voyants sont les suivantes: `on`, `off`, `toggle` et `blink`.
+Les commandes principales pour les DELs sont `on`, `off`, `toggle` et `blink`.
 
-2. Essayez d'allumer et d'éteindre les lumières dans l'ordre:
+2. Essayez d'allumer et d'éteindre les feux en séquence:
     
     ```python
-red.on () sleep (1) amber.on () sleep (1) vert.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) green.off ()
+rouge.on()
+sleep(1)
+jaune.on()
+sleep(1)
+vert.on()
+sleep(1)
+rouge.off()
+sleep(1)
+jaune.off()
+sleep(1)
+vert.off()
 ```
 
-3. Essayez de répéter ceci en plaçant le code dans un `while` boucle:
+3. Essayez de répéter ceci en plaçant le code dans une boucle `while`:
     
     ```python
 while Vrai: red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) vert. de()
