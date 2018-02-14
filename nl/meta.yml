@@ -1,24 +1,24 @@
 ---
-title: Control a Traffic Lights Sequence with Python
-hero_image: images/banner.png
-description: Learn to control traffic light LEDs and code a traffic lights sequence using Python
-theme: red
+title: Bestuur een verkeerslichtsequentie met Python
+hero_image: images / banner.png
+description: Leer om verkeerslicht-LED's te bedienen en een reeks verkeerslichten te coderen met behulp van Python
+theme: rood
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
 curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python"
+interests: "fysiek computergebruik"
+technologies: "elektronica, fysieke computergebruik, python"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: Invoering
   - 
-    title: What you will need
+    title: Wat je nodig zult hebben
   - 
-    title: Connect the LEDs
+    title: Verbind de LED's
   - 
-    title: Control the LEDs
+    title: Bedien de LED's
   - 
-    title: Traffic lights sequence
+    title: Volgorde verkeerslichten
