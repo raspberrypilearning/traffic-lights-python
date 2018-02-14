@@ -1,35 +1,56 @@
 ## Verkehrsampel Sequenz
 
-1. Die `on` Funktion ermöglicht es, ein Licht einzuschalten. Du kannst `sleep` verwenden um zwischen Befehlen anzuhalten. Probieren Sie dieses Beispiel aus, um die Lichter nacheinander einzuschalten:
+1. Die `on` Funktion ermöglicht es, ein Licht einzuschalten. Du kannst `sleep` verwenden um zwischen Befehlen anzuhalten. Probiere dieses Beispiel aus, um die Lichter nacheinander einzuschalten:
     
     ```python
 from gpiozero import LED
 from time import sleep
 
-red = LED(22)
-amber = LED(27)
-green = LED(17)
+rot = LED(22)
+bernstein = LED(27)
+gruen = LED(17)
 
-red.on()
+rot.on()
 sleep(1)
-amber.on()
+bernstein.on()
 sleep(1)
-green.on()
+gruen.on()
 sleep(1)
 ```
 
 Die Hauptbefehle für LEDs sind `on`, `off`, `toggle` und `blink` (ein-, aus- und umschalten, blinken).
 
-2. Versuchen Sie, die Lichter der Reihe nach ein- und auszuschalten:
+2. Versuche die Lichter der Reihe nach ein- und auszuschalten:
     
     ```python
-red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) green.off ()
+rot.on()
+sleep(1)
+bernstein.on()
+sleep(1)
+gruen.on()
+sleep(1)
+rot.off()
+sleep(1)
+bernstein.off()
+sleep(1)
+gruen.off()
 ```
 
 3. Versuche dies zu wiederholen, indem du den Code in eine `while` Schleife einfügst:
     
     ```python
-während True: red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) green. aus()
+while True:
+   rot.on()
+   sleep(1)
+   bernstein.on()
+   sleep(1)
+   gruen.on()
+   sleep(1)
+   rot.off()
+   sleep(1)
+   bernstein.off()
+   sleep(1)
+   gruen.off()
 ```
 
 4. Jetzt weist du, wie man die Lichter individuell steuert und die Pausen zwischen den Befehlen einstellt. Kannst du eine Ampelsequenz erstellen? Die Reihenfolge lautet:
