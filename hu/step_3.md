@@ -1,9 +1,9 @@
-## Connect the LEDs
+## Csatlakoztassa a LED-eket
 
-1. Connect your LEDs to the following pins:
+1. Csatlakoztassa a LED-eket a következő csapokhoz:
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| VEZETTE   | GPIO tű |
+| --------- |:-------:|
+| Piros     |   22    |
+| Borostyán |   27    |
+| Zöld      |   17    |
