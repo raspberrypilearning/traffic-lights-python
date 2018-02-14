@@ -1,33 +1,21 @@
-## Control the LEDs
+## Контролирайте светодиодите
 
-1. Open Python 3 from the main menu, and open a new file.
+1. Отворете Python 3 от главното меню и отворете нов файл.
 
-2. Enter the following code:
+2. Въведете следния код:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-
-red.blink()
+от gpiozero внос LED червен = LED (22) red.blink ()
 ```
 
-3. Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+3. Сега запазете програмата си и натиснете **F5** за да стартирате кода си. Трябва да виждате червената светлина да мига и изключва непрекъснато.
 
-4. Now modify your code to introduce the other two lights, and make them blink at different speeds:
+4. Сега променете кода си, за да въведете другите две светлини и ги накарайте да мигат при различни скорости:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+от gpiozero внос LED червен = LED (22) кехлибарен = LED (27) зелен = LED (17) red.blink (1, 1) amber.blink (2,
 ```
 
-5. Run your code again and you should see the three lights flashing at different rates.
+5. Изпълнете кода си отново и трябва да видите, че три светлини мигат с различни честоти.
 
-6. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+6. Ако по-голям брой прави светлинното мигане по-бавно, колко число ще го направи по-бързо? Опитайте се да накарате лампите да мигат по-бързо.
