@@ -1,6 +1,6 @@
-## What you will need
+## آنچه شما نیاز دارید
 
-### Hardware
+### سخت افزار
 
-- Raspberry Pi
-- pi-stop traffic lights or 3x LEDs and resistors
+- تمشک پی
+- چراغ ترافیک pi-stop یا 3x LEDs و مقاومت
