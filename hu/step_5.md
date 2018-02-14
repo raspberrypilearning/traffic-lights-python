@@ -1,66 +1,33 @@
-## Traffic lights sequence
+## A közlekedési lámpa sorrendje
 
-1. The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+1. A `on` funkció lehetővé teszi, hogy bekapcsoljon egy világítást. Használhatja a `sleep` -t szüneteltetni a parancsok között. Próbálja meg ezt a példát a lámpák sorrendben történő bekapcsolásához:
     
     ```python
-from gpiozero import LED
-from time import sleep
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
-sleep(1)
+a gpiozero import LED az idő import alvásakor piros = LED (22) borostyánsárga = LED (27) zöld = LED (17) red.on () alvás (1) amber.on () sleep (1) green.on (1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+A LED-ek fő vezérlése: `on`, `off`, `váltás` és 123_6_6_321 | villog</code>.
 
-2. Try turning the lights on and off in sequence:
+2. Próbálja meg világítani és kikapcsolni a lámpákat:
     
     ```python
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
-sleep(1)
-red.off()
-sleep(1)
-amber.off()
-sleep(1)
-green.off()
+() sleep (1) green.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) green.off
 ```
 
-3. Try repeating this by putting the code inside a `while` loop:
+3. Próbálja meg ezt ismételni úgy, hogy a kódot a `, míg` hurok:
     
     ```python
-while True:
-   red.on()
-   sleep(1)
-   amber.on()
-   sleep(1)
-   green.on()
-   sleep(1)
-   red.off()
-   sleep(1)
-   amber.off()
-   sleep(1)
-   green.off()
+míg a True: red.on () alvás (1) amber.on () sleep (1) green.on () sleep (1) red.off () alvás (1) amber.off () alvás (1) zöld. ki()
 ```
 
-4. Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+4. Most már tudod, hogyan kell egyedileg irányítani a fényeket, és a parancsok közötti szünetek idejét, létrehozhatsz egy közlekedési lámpa sorozatát? A szekvencia megy:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Zölden
+- Borostyán
+- Piros
+- Piros és sárga
+- Zölden
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Fontos időzni. Mennyi ideig kell a fények maradni minden szakaszban?
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+Miután befejezte a közlekedési lámpák sorozatát, érdemes megpróbálnia hozzáadni egy gombot és egy zümmögőt, hogy interaktív verziót készítsen.
