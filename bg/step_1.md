@@ -1,3 +1,3 @@
-## Introduction
+## Въведение
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python
+Научете се да управлявате светодиодите със светофар и да кодирате последователността на светофарите с помощта на Python
