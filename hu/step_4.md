@@ -1,33 +1,21 @@
-## Control the LEDs
+## Irányítsa a LED-eket
 
-1. Open Python 3 from the main menu, and open a new file.
+1. Nyissa meg a Python 3-at a főmenüből, és nyisson meg egy új fájlt.
 
-2. Enter the following code:
+2. Adja meg a következő kódot:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-
-red.blink()
+a gpiozero importból LED piros = LED (22) red.blink ()
 ```
 
-3. Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+3. Most mentse el a programot, és nyomja meg a **F5** futtatni a kódot. A piros lámpát folyamatosan be kell kapcsolni és ki kell kapcsolni.
 
-4. Now modify your code to introduce the other two lights, and make them blink at different speeds:
+4. Most módosítsa a kódot, hogy bemutassa a másik két lámpát, és különböző sebességgel villogjon:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+a gpiozero import LED piros = LED (22) borostyánsárga = LED (27) zöld = LED (17) red.blink (1, 1) amber.blink (2, 2) green.blink (3, 3)
 ```
 
-5. Run your code again and you should see the three lights flashing at different rates.
+5. Futtassa újra a kódot, és látni fogja, hogy a három lámpa villog, különböző sebességgel.
 
-6. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+6. Ha egy nagyobb szám a lámpa villogását lassítja, akkor mekkora lesz a gyorsabb futás? Próbálja meg villogni a fények gyorsabban.
