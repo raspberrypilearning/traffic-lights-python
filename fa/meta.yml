@@ -1,24 +1,24 @@
 ---
-title: Control a Traffic Lights Sequence with Python
-hero_image: images/banner.png
-description: Learn to control traffic light LEDs and code a traffic lights sequence using Python
-theme: red
+title: یک ترتیب چراغ های ترافیکی را با پایتون کنترل کنید
+hero_image: images / banner.png
+description: یاد بگیرید برای کنترل چراغ های چراغ ترافیک و یک دنباله چراغ راهنمایی با استفاده از پایتون کد کنید
+theme: سرخ
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python"
+curriculum: programming-0، phys-comp-0
+interests: "محاسبات فیزیکی"
+technologies: "الکترونیک، محاسبات فیزیکی، پایتون"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: معرفی
   - 
-    title: What you will need
+    title: آنچه شما نیاز دارید
   - 
-    title: Connect the LEDs
+    title: LED ها را وصل کنید
   - 
-    title: Control the LEDs
+    title: کنترل LED ها
   - 
-    title: Traffic lights sequence
+    title: ترتیب چراغ راهنمایی
