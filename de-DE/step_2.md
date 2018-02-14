@@ -3,4 +3,4 @@
 ### Hardware
 
 - Raspberry Pi
-- Pi Stop Ampeln oder 3x LEDs und Widerstände
+- Pi Stop Verkehrsampel oder 3x LEDs und Widerstände
