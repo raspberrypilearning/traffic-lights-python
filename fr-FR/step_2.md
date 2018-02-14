@@ -1,6 +1,6 @@
 ## Ce dont tu auras besoin
 
-### Matériel
+### Matériel informatique
 
-- Tarte aux framboises
-- feux de circulation pi-stop ou LED 3x et résistances
+- Raspberry Pi
+- feux de signalisation pi-stop ou 3x LEDs et résistances
