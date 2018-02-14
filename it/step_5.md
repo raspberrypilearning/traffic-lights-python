@@ -1,66 +1,33 @@
-## Traffic lights sequence
+## Sequenza dei semafori
 
-1. The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+1. Il `on` la funzione ti permette di accendere una luce. È possibile utilizzare `sleep` per mettere in pausa tra i comandi. Prova questo esempio per accendere le luci in sequenza:
     
     ```python
-from gpiozero import LED
-from time import sleep
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
-sleep(1)
+da gpiozero import LED dall'ora importazione sleep rosso = LED (22) ambra = LED (27) verde = LED (17) red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+I controlli principali per i LED sono `on`, `off`, `toggle` e `lampeggia`.
 
-2. Try turning the lights on and off in sequence:
+2. Prova ad accendere e spegnere le luci in sequenza:
     
     ```python
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
-sleep(1)
-red.off()
-sleep(1)
-amber.off()
-sleep(1)
-green.off()
+red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) green.off ()
 ```
 
-3. Try repeating this by putting the code inside a `while` loop:
+3. Prova a ripetere questo inserendo il codice all'interno di `while` ciclo continuo:
     
     ```python
-while True:
-   red.on()
-   sleep(1)
-   amber.on()
-   sleep(1)
-   green.on()
-   sleep(1)
-   red.off()
-   sleep(1)
-   amber.off()
-   sleep(1)
-   green.off()
+while True: red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) verde. off ()
 ```
 
-4. Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+4. Ora sai come controllare le luci individualmente e cronometrare le pause tra i comandi, puoi creare una sequenza di semafori? La sequenza va:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Verde acceso
+- Ambra
+- Rosso acceso
+- Rosso e ambra
+- Verde acceso
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+È importante pensare ai tempi. Per quanto tempo dovrebbero rimanere accese le luci in ogni fase?
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+Una volta completata la sequenza dei semafori, potresti provare ad aggiungere un pulsante e un cicalino per creare una versione interattiva.
