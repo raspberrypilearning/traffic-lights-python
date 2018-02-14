@@ -1,9 +1,9 @@
-## Connect the LEDs
+## LED ها را وصل کنید
 
-1. Connect your LEDs to the following pins:
+1. LED های خود را به پین ​​های زیر وصل کنید:
 
-| LED   | GPIO pin |
+| رهبری | پین GPIO |
 | ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| سرخ   |    22    |
+| کهربا |    27    |
+| سبز   |    17    |
