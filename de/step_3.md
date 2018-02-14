@@ -1,9 +1,9 @@
-## Connect the LEDs
+## Verbinde die LEDs
 
-1. Connect your LEDs to the following pins:
+1. Verbinde deine LEDs mit folgenden Pins:
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| LED       | GPIO-Stift |
+| --------- |:----------:|
+| rot       |     22     |
+| Bernstein |     27     |
+| Grün      |     17     |
