@@ -1,24 +1,24 @@
 ---
-title: Control a Traffic Lights Sequence with Python
-hero_image: images/banner.png
-description: Learn to control traffic light LEDs and code a traffic lights sequence using Python
-theme: red
+title: A Traffic Light szekvenciájának vezérlése a Pythontal
+hero_image: images / banner.png
+description: Tanuld meg, hogy szabályozd a forgalmi jelzőlámpákat és kódoljon egy forgalmi jelzőt a Python segítségével
+theme: piros
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python"
+curriculum: programozás-0, fizikai-comp-0
+interests: "fizikai számítástechnika"
+technologies: "elektronika, fizikai számítástechnika, python"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: Bevezetés
   - 
-    title: What you will need
+    title: Amire szükséged lesz
   - 
-    title: Connect the LEDs
+    title: Csatlakoztassa a LED-eket
   - 
-    title: Control the LEDs
+    title: Irányítsa a LED-eket
   - 
-    title: Traffic lights sequence
+    title: A közlekedési lámpa sorrendje
