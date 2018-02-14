@@ -1,33 +1,21 @@
-## Control the LEDs
+## Contrôler les LED
 
-1. Open Python 3 from the main menu, and open a new file.
+1. Ouvrez Python 3 à partir du menu principal et ouvrez un nouveau fichier.
 
-2. Enter the following code:
+2. Entrez le code suivant:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-
-red.blink()
+à partir de gpiozero import LED rouge = LED (22) red.blink ()
 ```
 
-3. Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+3. Maintenant, sauvegardez votre programme et appuyez sur **F5** pour exécuter votre code. Vous devriez voir la lumière rouge clignoter continuellement.
 
-4. Now modify your code to introduce the other two lights, and make them blink at different speeds:
+4. Maintenant, modifiez votre code pour introduire les deux autres lumières et faites-les clignoter à différentes vitesses:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+à partir de gpiozero LED d'importation rouge = LED (22) ambre = LED (27) vert = LED (17) red.blink (1, 1) amber.blink (2, 2) green.blink (3, 3)
 ```
 
-5. Run your code again and you should see the three lights flashing at different rates.
+5. Exécutez votre code à nouveau et vous devriez voir les trois lumières clignotant à des taux différents.
 
-6. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+6. Si un plus grand nombre clignote plus lentement, quel nombre le ferait fonctionner plus vite? Essayez de faire clignoter vos lumières plus rapidement.
