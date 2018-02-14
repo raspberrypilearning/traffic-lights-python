@@ -4,6 +4,6 @@
 
 | LED       | GPIO-Stift |
 | --------- |:----------:|
-| rot       |     22     |
+| Rot       |     22     |
 | Bernstein |     27     |
 | Grün      |     17     |
