@@ -1,9 +1,9 @@
-## Connectez les LED
+## Connectez les LEDs
 
-1. Connectez vos LED aux broches suivantes:
+1. Connectez les LEDs aux broches suivantes:
 
 | LED   | GPIO |
 | ----- |:----:|
-| rouge |  22  |
-| ambre |  27  |
-| vert  |  17  |
+| Rouge |  22  |
+| Ambre |  27  |
+| Vert  |  17  |
