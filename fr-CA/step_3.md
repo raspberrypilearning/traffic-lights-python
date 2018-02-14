@@ -1,9 +1,9 @@
-## Connectez les LED
+## Connectez les DELs
 
-1. Connectez vos LED aux broches suivantes:
+1. Connectez les DELs aux broches suivantes:
 
-| LED   | GPIO |
-| ----- |:----:|
-| rouge |  22  |
-| ambre |  27  |
-| vert  |  17  |
+| DEL   | Broche GPIO |
+| ----- |:-----------:|
+| Rouge |     22      |
+| Jaune |     27      |
+| Green |     17      |
