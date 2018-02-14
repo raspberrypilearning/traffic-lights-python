@@ -1,4 +1,4 @@
-## Ce dont tu auras besoin
+## Ce dont vous aurez besoin
 
 ### Matériel informatique
 
