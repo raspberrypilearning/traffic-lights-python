@@ -1,6 +1,6 @@
-## What you will need
+## あなたが必要とするもの
 
-### Hardware
+### ハードウェア
 
-- Raspberry Pi
-- pi-stop traffic lights or 3x LEDs and resistors
+- ラズベリーパイ
+- pi-stop信号または3x LEDと抵抗
