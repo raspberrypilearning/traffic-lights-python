@@ -1,4 +1,4 @@
-## Séquence de feux de circulation
+## Séquence de feux de signalisation
 
 1. Le `on` fonction vous permet d'allumer une lumière. Vous pouvez utiliser `sleep` pour faire une pause entre les commandes. Essayez cet exemple pour allumer les lumières en séquence:
     
