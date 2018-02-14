@@ -1,6 +1,6 @@
-## What you will need
+## Ce dont tu auras besoin
 
-### Hardware
+### Matériel
 
-- Raspberry Pi
-- pi-stop traffic lights or 3x LEDs and resistors
+- Tarte aux framboises
+- feux de circulation pi-stop ou LED 3x et résistances
