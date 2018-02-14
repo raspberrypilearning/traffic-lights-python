@@ -1,3 +1,3 @@
-## Introduction
+## معرفی
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python
+یاد بگیرید برای کنترل چراغ های چراغ ترافیک و یک دنباله چراغ راهنمایی با استفاده از پایتون کد کنید
