@@ -1,66 +1,33 @@
-## Traffic lights sequence
+## Последователност на светофарите
 
-1. The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+1. `на` функцията ви позволява да включите светлината. Можете да използвате `sleep` за пауза между командите. Опитайте този пример, за да включите осветлението последователно:
     
     ```python
-from gpiozero import LED
-from time import sleep
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
-sleep(1)
+от gpiozero импорт LED от време внос сън червен = LED (22) кехлибарен = LED (27) зелен = LED (17) red.on () (1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+Основните контроли за светодиодите са `на`, `изключени`, `превключващи` и `мигам`.
 
-2. Try turning the lights on and off in sequence:
+2. Опитайте да включите и изключите осветлението последователно:
     
     ```python
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
-sleep(1)
-red.off()
-sleep(1)
-amber.off()
-sleep(1)
-green.off()
+red.on () sleep (1) amber.on () sleep (1) green.off () sleep (1)
 ```
 
-3. Try repeating this by putting the code inside a `while` loop:
+3. Опитайте да повтаряте това, като поставите кода вътре в `докато` контур:
     
     ```python
-while True:
-   red.on()
-   sleep(1)
-   amber.on()
-   sleep(1)
-   green.on()
-   sleep(1)
-   red.off()
-   sleep(1)
-   amber.off()
-   sleep(1)
-   green.off()
+докато вярно: red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1) от ()
 ```
 
-4. Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+4. Сега знаете как да контролирате светлините поотделно и колко време можете да поставите на пауза между командите, можете ли да създадете последователност на светофарите? Последователността продължава:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Зелено на
+- Амбър на
+- Червено включено
+- Червено и кехлибарено
+- Зелено на
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Важно е да мислите за времето. Колко време трябва да останат светлините на всеки етап?
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+След като завършите последователността на светофарите, може да опитате да добавите бутон и зумер, за да направите интерактивна версия.
