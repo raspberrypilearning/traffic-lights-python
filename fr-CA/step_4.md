@@ -28,6 +28,6 @@ jaune.blink(2, 2)
 vert.blink(3, 3)
 ```
 
-5. Exécutez votre code à nouveau et vous devriez voir les trois feux clignoter avec des durées différentes.
+5. Exécutez votre code à nouveau et vous devriez voir les trois feux clignoter à des vitesses différentes.
 
 6. Si un nombre plus élevé fait clignoter un feux plus lentement, quel nombre le ferait clignoter plus rapidement? Essayez de faire clignoter vos feux plus rapidement.
