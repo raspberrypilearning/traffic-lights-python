@@ -1,33 +1,21 @@
-## Control the LEDs
+## کنترل LED ها
 
-1. Open Python 3 from the main menu, and open a new file.
+1. پایتون 3 را از منوی اصلی باز کنید و فایل جدیدی باز کنید.
 
-2. Enter the following code:
+2. کد زیر را وارد کنید:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-
-red.blink()
+از import gpiozero LED red = LED (22) red.blink ()
 ```
 
-3. Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+3. در حال حاضر برنامه خود را ذخیره کنید و مطبوعات **F5** برای اجرای کد شما چراغ قرمز نور را باید به طور مداوم و روشن روشن کنید.
 
-4. Now modify your code to introduce the other two lights, and make them blink at different speeds:
+4. حالا کد خود را برای معرفی دو چراغ دیگر تغییر دهید و آنها را با سرعت های مختلف متمرکز کنید:
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+از gpiozero import LED red = LED (22) amber = LED (27) green = LED (17) red.blink (1، 1) amber.blink (2، 2) green.blink (3، 3)
 ```
 
-5. Run your code again and you should see the three lights flashing at different rates.
+5. دوباره کد خود را اجرا کنید و باید سه چراغ را با نرخ های مختلف ببینید.
 
-6. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+6. اگر یک عدد بزرگتر باعث می شود که نور چشمک زدن کند، چه عدد آن را سریعتر اجرا می کند؟ سعی کنید که چراغ های خود را سریعتر روشن کنید.
