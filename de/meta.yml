@@ -1,0 +1,24 @@
+---
+title: Steuern Sie eine Ampel Sequenz mit Python
+hero_image: Bilder / Banner.png
+description: Lernen Sie Ampeln zu steuern und eine Ampelkette mit Python zu programmieren
+theme: rot
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: Programmierung-0, Phys-Comp-0
+interests: "physikalische Datenverarbeitung"
+technologies: "Elektronik, physikalisches Rechnen, Python"
+site_areas: ""
+steps:
+  - 
+    title: Einführung
+  - 
+    title: Was wirst du brauchen
+  - 
+    title: Verbinde die LEDs
+  - 
+    title: Kontrolliere die LEDs
+  - 
+    title: Ampel Sequenz

@@ -1,0 +1,24 @@
+---
+title: Controlla una sequenza di semafori con Python
+hero_image: images / banner.png
+description: Impara a controllare i semafori a LED e codifica una sequenza di semafori usando Python
+theme: rosso
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programmazione-0, compatta-0
+interests: "calcolo fisico"
+technologies: "elettronica, calcolo fisico, pitone"
+site_areas: ""
+steps:
+  - 
+    title: introduzione
+  - 
+    title: Di cosa avrai bisogno
+  - 
+    title: Collegare i LED
+  - 
+    title: Controlla i LED
+  - 
+    title: Sequenza dei semafori

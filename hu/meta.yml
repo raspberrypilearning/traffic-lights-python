@@ -1,0 +1,24 @@
+---
+title: A Traffic Light szekvenciájának vezérlése a Pythontal
+hero_image: images / banner.png
+description: Tanuld meg, hogy szabályozd a forgalmi jelzőlámpákat és kódoljon egy forgalmi jelzőt a Python segítségével
+theme: piros
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programozás-0, fizikai-comp-0
+interests: "fizikai számítástechnika"
+technologies: "elektronika, fizikai számítástechnika, python"
+site_areas: ""
+steps:
+  - 
+    title: Bevezetés
+  - 
+    title: Amire szükséged lesz
+  - 
+    title: Csatlakoztassa a LED-eket
+  - 
+    title: Irányítsa a LED-eket
+  - 
+    title: A közlekedési lámpa sorrendje
