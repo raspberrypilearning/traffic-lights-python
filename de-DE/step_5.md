@@ -1,6 +1,6 @@
-## Ampel Sequenz
+## Verkehrsampel Sequenz
 
-1. Die `on` Funktion ermöglicht es Ihnen, ein Licht einzuschalten. Sie können `sleep` verwenden zwischen Befehlen anhalten. Probieren Sie dieses Beispiel aus, um die Lichter nacheinander einzuschalten:
+1. Die `on` Funktion ermöglicht es, ein Licht einzuschalten. Sie können `sleep` verwenden zwischen Befehlen anhalten. Probieren Sie dieses Beispiel aus, um die Lichter nacheinander einzuschalten:
     
     ```python
 von gpiozero import LED von time import sleep rot = LED (22) amber = LED (27) grün = LED (17) rot.ein () sleep (1) amber.on () sleep (1) green.on () sleep (1)
