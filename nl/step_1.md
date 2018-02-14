@@ -1,3 +1,3 @@
-## Introduction
+## Invoering
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python
+Leer om verkeerslicht-LED's te bedienen en een reeks verkeerslichten te coderen met behulp van Python
