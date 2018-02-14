@@ -1,11 +1,15 @@
-## Kontrolliere die LEDs
+## Steuere die LEDs
 
 1. Öffne Python 3 aus dem Hauptmenü und öffne eine neue Datei.
 
 2. Geben Sie den folgenden Code ein:
     
     ```python
-von gpiozero import LED rot = LED (22) red.blink ()
+from gpiozero import LED 
+
+rot = LED (22) 
+
+red.blink ()
 ```
 
 3. Speichern Sie nun Ihr Programm und drücken Sie **F5** um deinen Code auszuführen. Sie sollten sehen, dass das rote Licht kontinuierlich blinkt.
