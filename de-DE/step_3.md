@@ -1,6 +1,6 @@
 ## Verbinde die LEDs
 
-1. Verbinde deine LEDs mit folgenden Pins:
+1. Verbinde deine LEDs mit folgenden Anschlußstiften:
 
 | LED       | GPIO-Stift |
 | --------- |:----------:|
