@@ -1,6 +1,6 @@
-## What you will need
+## Amire szükséged lesz
 
-### Hardware
+### Hardver
 
 - Raspberry Pi
-- pi-stop traffic lights or 3x LEDs and resistors
+- pi-stop jelzőlámpák vagy 3x LED-ek és ellenállások
