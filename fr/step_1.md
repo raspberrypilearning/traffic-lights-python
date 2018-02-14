@@ -1,3 +1,3 @@
-## Introduction
+## introduction
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python
+Apprenez à contrôler les voyants du feu et à coder une séquence de feux de circulation à l'aide de Python
