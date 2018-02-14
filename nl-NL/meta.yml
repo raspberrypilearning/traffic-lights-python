@@ -1,0 +1,24 @@
+---
+title: Bestuur een verkeerslichtsequentie met Python
+hero_image: images / banner.png
+description: Leer om verkeerslicht-LED's te bedienen en een reeks verkeerslichten te coderen met behulp van Python
+theme: rood
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: "fysiek computergebruik"
+technologies: "elektronica, fysieke computergebruik, python"
+site_areas: ""
+steps:
+  - 
+    title: Invoering
+  - 
+    title: Wat je nodig zult hebben
+  - 
+    title: Verbind de LED's
+  - 
+    title: Bedien de LED's
+  - 
+    title: Volgorde verkeerslichten
