@@ -1,9 +1,9 @@
-## Connect the LEDs
+## Verbind de LED's
 
-1. Connect your LEDs to the following pins:
+1. Verbind uw LED's met de volgende pinnen:
 
-| LED   | GPIO pin |
+| LED   | GPIO-pen |
 | ----- |:--------:|
-| Red   |    22    |
+| Rood  |    22    |
 | Amber |    27    |
-| Green |    17    |
+| Groen |    17    |
