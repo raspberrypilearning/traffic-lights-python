@@ -1,66 +1,33 @@
-## Traffic lights sequence
+## 交通信号のシーケンス
 
-1. The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+1. `on`機能でライトを点灯させることができます。 あなたは`sleep`を使うことができます。コマンド間で一時停止する。 次の例を試して、ライトを順番にオンにします。
     
     ```python
-from gpiozero import LED
-from time import sleep
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
-sleep(1)
+gpiozeroからのインポートLEDは時間のインポートから睡眠赤= LED（22）琥珀= LED（27）緑= LED（17）red.on（）スリープ（1）amber.on（）sleep（1）green.on（）sleep （1）
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+LEDのメインコントロールは、`on`、`off`、`toggle` `点滅`となります。
 
-2. Try turning the lights on and off in sequence:
+2. 順番にライトをオンまたはオフにしてみてください：
     
     ```python
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
-sleep(1)
-red.off()
-sleep(1)
-amber.off()
-sleep(1)
-green.off()
+red.on（）sleep（1）amber.on（）sleep（1）green.off（）sleep（1）red.off（）sleep（1）
 ```
 
-3. Try repeating this by putting the code inside a `while` loop:
+3. `の中にコードを入れてこれを繰り返す`ループ：
     
     ```python
-while True:
-   red.on()
-   sleep(1)
-   amber.on()
-   sleep(1)
-   green.on()
-   sleep(1)
-   red.off()
-   sleep(1)
-   amber.off()
-   sleep(1)
-   green.off()
+sleep（1）sleep（1）sleep（1）sleep（1）sleep（1）green.on（）sleep（1）red.onオフ（）
 ```
 
-4. Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+4. 今度は、ライトを個別に制御する方法を知り、コマンド間の休止時間を計る、信号灯シーケンスを作成することができますか？ シーケンスは次のようになります。
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- グリーンオン
+- アンバーオン
+- レッドオン
+- 赤と琥珀色
+- グリーンオン
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+タイミングについて考えることが重要です。 各ステージでどれくらいの間ライトが点灯し続けるのですか？
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+信号灯のシーケンスを完了したら、ボタンとブザーを追加してインタラクティブなバージョンを作ってみてください。
