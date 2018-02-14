@@ -1,3 +1,3 @@
-## Introduction
+## 前書き
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python
+信号灯のLEDを制御する方法と、Pythonを使用して信号灯のシーケンスを記述する方法
