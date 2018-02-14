@@ -1,3 +1,3 @@
 ## Einführung
 
-Lernen Sie Ampeln zu steuern und eine Ampelkette mit Python zu programmieren
+Lernen Sie Verkehrsampeln zu steuern und eine Lichtreihenfolge mit Python zu programmieren
