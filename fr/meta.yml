@@ -1,24 +1,24 @@
 ---
-title: Control a Traffic Lights Sequence with Python
-hero_image: images/banner.png
-description: Learn to control traffic light LEDs and code a traffic lights sequence using Python
-theme: red
+title: Contrôler une séquence de feux de circulation avec Python
+hero_image: images / banner.png
+description: Apprenez à contrôler les voyants du feu et à coder une séquence de feux de circulation à l'aide de Python
+theme: rouge
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python"
+curriculum: programmation-0, phys-comp-0
+interests: "informatique physique"
+technologies: "électronique, informatique physique, python"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: introduction
   - 
-    title: What you will need
+    title: Ce dont tu auras besoin
   - 
-    title: Connect the LEDs
+    title: Connectez les LED
   - 
-    title: Control the LEDs
+    title: Contrôler les LED
   - 
-    title: Traffic lights sequence
+    title: Séquence de feux de circulation
