@@ -1,3 +1,3 @@
-## Introduction
+## Einführung
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python
+Lernen Sie Ampeln zu steuern und eine Ampelkette mit Python zu programmieren
