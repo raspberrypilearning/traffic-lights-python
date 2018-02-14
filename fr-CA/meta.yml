@@ -1,24 +1,24 @@
 ---
-title: Contrôler une séquence de feux de circulation avec Python
-hero_image: images / banner.png
-description: Apprenez à contrôler les voyants du feu et à coder une séquence de feux de circulation à l'aide de Python
+title: Contrôler une séquence de feux de signalisation avec Python
+hero_image: images/banner.png
+description: Apprenez à contrôler les DELs du feu et à coder une séquence de feux de signalisation avec Python
 theme: rouge
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmation-0, phys-comp-0
+curriculum: programming-0, phys-comp-0
 interests: "informatique physique"
-technologies: "électronique, informatique physique, python"
+technologies: "electronics, physical computing, Python"
 site_areas: ""
 steps:
   - 
-    title: introduction
+    title: Introduction
   - 
-    title: Ce dont tu auras besoin
+    title: Ce dont vous aurez besoin
   - 
-    title: Connectez les LED
+    title: Connectez les DELs
   - 
-    title: Contrôler les LED
+    title: Contrôlez les DELs
   - 
-    title: Séquence de feux de circulation
+    title: Séquence de feux de signalisation
