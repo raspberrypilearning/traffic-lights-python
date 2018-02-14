@@ -1,6 +1,6 @@
-## What you will need
+## Di cosa avrai bisogno
 
 ### Hardware
 
 - Raspberry Pi
-- pi-stop traffic lights or 3x LEDs and resistors
+- semafori pi-stop o 3x LED e resistori
