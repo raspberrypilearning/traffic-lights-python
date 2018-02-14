@@ -1,33 +1,21 @@
-## Control the LEDs
+## LEDの制御
 
-1. Open Python 3 from the main menu, and open a new file.
+1. メインメニューからPython 3を開き、新しいファイルを開きます。
 
-2. Enter the following code:
+2. 次のコードを入力します。
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-
-red.blink()
+gpiozeroからのインポートLED red = LED（22）red.blink（）
 ```
 
-3. Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+3. 今度はプログラムを保存し、**F5**を押してください。あなたのコードを実行する。 赤いライトの点滅が連続的にオン/オフするはずです。
 
-4. Now modify your code to introduce the other two lights, and make them blink at different speeds:
+4. コードを変更して、他の2つのライトを導入し、異なる速度で点滅させます。
     
     ```python
-from gpiozero import LED
-
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+gpiozeroからのインポートLED red = LED（22）琥珀色= LED（27）緑色= LED（17）red.blink（1,1）amber.blink（2、2）green.blink（3、3）
 ```
 
-5. Run your code again and you should see the three lights flashing at different rates.
+5. コードをもう一度実行すると、3つのライトが異なる速度で点滅していることがわかります。
 
-6. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+6. 大きい数字でライトを点滅させるのが遅くなると、どの数字が速くなるでしょうか？ あなたのライトが速く点滅するようにしてください。
