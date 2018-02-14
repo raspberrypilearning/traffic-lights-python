@@ -1,6 +1,6 @@
-## What you will need
+## Какво ще ви трябва
 
-### Hardware
+### железария
 
-- Raspberry Pi
-- pi-stop traffic lights or 3x LEDs and resistors
+- Малина Пи
+- спирачни светофари или 3х светодиоди и резистори
