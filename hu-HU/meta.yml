@@ -1,7 +1,7 @@
 ---
 title: A jelzőlámpa szekvenciájának vezérlése a Pythontal
 hero_image: images / banner.png
-description: Tanuld meg, hogy szabályozd a forgalmi jelzőlámpákat és kódoljon egy forgalmi jelzőt a Python segítségével
+description: Tanuld meg szabályozi a jelzőlámpák fényeit és kódold a forgalmi jelzőt a Python segítségével
 theme: piros
 duration: 2
 listed: false
