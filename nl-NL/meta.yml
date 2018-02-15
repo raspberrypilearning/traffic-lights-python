@@ -7,18 +7,18 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "fysiek computergebruik"
-technologies: "elektronica, fysieke computergebruik, python"
+curriculum: programmeren-0, computergebruik-0
+interests: "computergebruik"
+technologies: "elektronica, computergebruik, python"
 site_areas: ""
 steps:
   - 
-    title: Invoering
+    title: Introductie
   - 
-    title: Wat je nodig zult hebben
+    title: Wat heb je nodig
   - 
     title: Verbind de LED's
   - 
-    title: Bedien de LED's
+    title: Bestuur de LED's
   - 
     title: Volgorde verkeerslichten
