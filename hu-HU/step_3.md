@@ -2,8 +2,8 @@
 
 1. Csatlakoztasd a LED-eket a következő lábakhoz:
 
-| LED       | GPIO tű |
-| --------- |:-------:|
-| Piros     |   22    |
-| Borostyán |   27    |
-| Zöld      |   17    |
+| LED   | GPIO tű |
+| ----- |:-------:|
+| Piros |   22    |
+| Sárga |   27    |
+| Zöld  |   17    |
