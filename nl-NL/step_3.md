@@ -2,8 +2,8 @@
 
 1. Verbind uw LED's met de volgende pinnen:
 
-| LED   | GPIO-pen |
-| ----- |:--------:|
-| Rood  |    22    |
-| Amber |    27    |
-| Groen |    17    |
+| LED         | GPIO-pen |
+| ----------- |:--------:|
+| Rood        |    22    |
+| Oranje/Geel |    27    |
+| Groen       |    17    |
