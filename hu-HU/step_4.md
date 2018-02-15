@@ -1,4 +1,4 @@
-## Irányítsa a LED-eket
+## Irányítsd a LED-eket
 
 1. Nyissa meg a Python 3-at a főmenüből, és nyisson meg egy új fájlt.
 
