@@ -17,9 +17,17 @@ rosso.blink()
 4. Ora modifica il codice per introdurre le altre due luci e farle lampeggiare a velocità diverse:
     
     ```python
-da gpiozero import LED rosso = LED (22) ambra = LED (27) verde = LED (17) rosso.blink (1, 1) ambra.blink (2, 2) green.blink (3, 3)
+from gpiozero import LED
+
+rosso = LED(22) 
+ambra = LED(27)
+verde = LED(17) 
+
+rosso.blink(1, 1) 
+ambra.blink(2, 2) 
+verde.blink(3, 3)
 ```
 
-5. Esegui nuovamente il codice e dovresti vedere le tre luci lampeggiare a velocità diverse.
+5. Eseguendo nuovamente il codice dovresti vedere le tre luci lampeggiare a velocità differenti.
 
-6. Se un numero maggiore fa rallentare leggermente la luce, quale numero lo renderebbe più veloce? Prova a far lampeggiare più velocemente le tue luci.
+6. Se un numero più alto fa rallentare leggermente la velocità a cui lampeggia la luce, con quale numero andrebbe più veloce? Prova a far lampeggiare più velocemente i LED.
