@@ -1,6 +1,6 @@
-## Sequenza dei semafori
+## Sequenza delle luci
 
-1. Il `on` la funzione ti permette di accendere una luce. È possibile utilizzare `sleep` per mettere in pausa tra i comandi. Prova questo esempio per accendere le luci in sequenza:
+1. La funzione `on` ti permette di accendere una luce. È possibile utilizzare `sleep` per mettere una pausa tra i comandi. Prova questo esempio per accendere le luci in sequenza:
     
     ```python
 da gpiozero import LED dall'ora importazione sleep rosso = LED (22) ambra = LED (27) verde = LED (17) red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1)
