@@ -3,7 +3,19 @@
 1. `on`機能でライトを点灯させることができます。 あなたは`sleep`を使うことができます。コマンド間で一時停止する。 次の例を試して、ライトを順番にオンにします。
     
     ```python
-gpiozeroからのインポートLEDは時間のインポートから睡眠赤= LED（22）琥珀= LED（27）緑= LED（17）red.on（）スリープ（1）amber.on（）sleep（1）green.on（）sleep （1）
+from gpiozero import LED
+from time import sleep
+
+red = LED(22)
+amber = LED(27)
+green = LED(17)
+
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
 ```
 
 LEDのメインコントロールは、`on`、`off`、`toggle` `点滅`となります。
