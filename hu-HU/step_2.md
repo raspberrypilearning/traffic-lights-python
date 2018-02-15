@@ -3,4 +3,4 @@
 ### Hardver
 
 - Raspberry Pi
-- pi-stop jelzőlámpák vagy 3x LED-ek és ellenállások
+- pi-stop jelzőlámpák vagy 3 darab LED és ellenállások
