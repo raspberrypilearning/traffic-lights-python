@@ -1,9 +1,9 @@
 ## Collega i LED
 
-1. Collega i LED ai seguenti pin:
+1. Collega i LED a questi pin:
 
-| LED   | Pin GPIO |
-| ----- |:--------:|
-| Rosso |    22    |
-| Ambra |    27    |
-| verde |    17    |
+| LED    | Pin GPIO |
+| ------ |:--------:|
+| Rosso  |    22    |
+| Giallo |    27    |
+| verde  |    17    |
