@@ -48,6 +48,6 @@ while True: red.on () slaap (1) amber.on () slaap (1) green.on () slaap (1) red.
 - Rood en oranje op
 - Groen aan
 
-Het is belangrijk om na te denken over timing. Hoe lang moet het licht aan blijven in elke fase?
+Het is belangrijk om na te denken over de tijdsduur van elk licht. Hoe lang moet het licht aan blijven in elke fase?
 
-Nadat u de reeks verkeerslichten hebt voltooid, kunt u proberen een knop en een zoemer toe te voegen om een ​​interactieve versie te maken.
+Nadat je het verkeerslicht hebt voltooid, kunt je proberen een knop en een zoemer toe te voegen om een ​​interactieve versie voor een zebrapad te maken.
