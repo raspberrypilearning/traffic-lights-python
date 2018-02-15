@@ -1,7 +1,7 @@
 ---
-title: Bestuur een verkeerslichtsequentie met Python
-hero_image: images / banner.png
-description: Leer om verkeerslicht-LED's te bedienen en een reeks verkeerslichten te coderen met behulp van Python
+title: Bestuur een verkeerslicht met Python
+hero_image: afbeeldingen / banner.png
+description: Leer een verkeerslicht te besturen en te programmeren met behulp van Python
 theme: rood
 duration: 2
 listed: false
