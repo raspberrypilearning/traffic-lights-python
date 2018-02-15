@@ -3,24 +3,57 @@
 1. Le `on` fonction vous permet d'allumer une lumière. Vous pouvez utiliser `sleep` pour faire une pause entre les commandes. Essayez cet exemple pour allumer les lumières en séquence:
     
     ```python
-à partir de gpiozero import LED à partir de l'heure d'importation sommeil rouge = LED (22) ambre = LED (27) vert = LED (17) red.on () sommeil (1) amber.on () sommeil (1) green.on () sommeil (1)
+from gpiozero import LED
+from time import sleep
+
+rouge = LED(22)
+ambre = LED(27)
+vert = LED(17)
+
+rouge.on()
+sleep(1)
+ambre.on()
+sleep(1)
+vert.on()
+sleep(1)
 ```
 
-Les commandes principales des voyants sont les suivantes: `on`, `off`, `toggle` et `blink`.
+Les commandes principales des LEDs sont les suivantes: `on`, `off`, `toggle` et `blink`.
 
-2. Essayez d'allumer et d'éteindre les lumières dans l'ordre:
+2. Essayez d'allumer et d'éteindre les lumières en séquence:
     
     ```python
-red.on () sleep (1) amber.on () sleep (1) vert.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) green.off ()
+rouge.on()
+sleep(1)
+ambre.on()
+sleep(1)
+vert.on()
+sleep(1)
+rouge.off()
+sleep(1)
+ambre.off()
+sleep(1)
+vert.off()
 ```
 
 3. Essayez de répéter ceci en plaçant le code dans un `while` boucle:
     
     ```python
-while Vrai: red.on () sleep (1) amber.on () sleep (1) green.on () sleep (1) red.off () sleep (1) amber.off () sleep (1) vert. de()
+while True:
+   rouge.on()
+   sleep(1)
+   ambre.on()
+   sleep(1)
+   vert.on()
+   sleep(1)
+   rouge.off()
+   sleep(1)
+   ambre.off()
+   sleep(1)
+   vert.off()
 ```
 
-4. Maintenant, vous savez comment contrôler les lumières individuellement, et le temps des pauses entre les commandes, pouvez-vous créer une séquence de feux de circulation? La séquence va:
+4. Maintenant que vous savez comment contrôler les lumières individuellement, et régler les pauses entre les commandes, pouvez-vous créer une séquence de feux de signalisation? La séquence suit:
 
 - Vert sur
 - Ambre sur
