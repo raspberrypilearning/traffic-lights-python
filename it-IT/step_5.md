@@ -1,4 +1,4 @@
-## Sequenza delle luci
+## La sequenza del semaforo
 
 1. La funzione `on` ti permette di accendere una luce. È possibile utilizzare `sleep` per mettere una pausa tra i comandi. Prova questo esempio per accendere le luci in sequenza:
     
@@ -7,12 +7,12 @@ from gpiozero import LED
 from time import sleep
 
 rosso = LED(22)
-ambra = LED(27)
+giallo = LED(27)
 verde = LED(17)
 
 rosso.on()
 sleep(1)
-ambra.on()
+giallo.on()
 sleep(1)
 verde.on()
 sleep(1)
@@ -25,13 +25,13 @@ I controlli principali per i LED sono `on`, `off`, `toggle` e `blink`.
     ```python
 rosso.on()
 sleep(1)
-ambra.on()
+giallo.on()
 sleep(1)
 verde.on()
 sleep(1)
 rosso.off()
 sleep(1)
-ambra.off()
+giallo.off()
 sleep(1)
 verde.off()
 ```
@@ -42,13 +42,13 @@ verde.off()
 while True:
  rosso.on()
  sleep(1)
- ambra.on()
+ giallo.on()
  sleep(1)
  verde.on()
  sleep(1)
  red.off()
  sleep(1)
- ambra.off()
+ giallo.off()
  sleep(1)
  verde.off()
 ```
