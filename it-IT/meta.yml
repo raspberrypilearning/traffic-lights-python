@@ -9,7 +9,7 @@ ingredient: false
 copyedit: false
 curriculum: programming-0, phys-comp-0
 interests: "physical computing"
-technologies: "elettronica, physical computing, python"
+technologies: "electronics, physical computing, python"
 site_areas: ""
 steps:
   - 
@@ -21,4 +21,4 @@ steps:
   - 
     title: Controlla i LED
   - 
-    title: Sequenza delle luci
+    title: La sequenza del semaforo
