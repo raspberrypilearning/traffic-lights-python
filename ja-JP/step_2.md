@@ -3,4 +3,4 @@
 ### ハードウェア
 
 - ラズベリーパイ
-- pi-stop traffic lightsまたは、3x LEDと抵抗
+- pi-stop traffic lightsまたは、3x LEDと抵抗器
