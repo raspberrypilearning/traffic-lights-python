@@ -5,12 +5,16 @@
 2. Inserisci il seguente codice:
     
     ```python
-da gpiozero import LED rosso = LED (22) red.blink ()
+from gpiozero import LED 
+
+rosso = LED(22) 
+
+rosso.blink()
 ```
 
-3. Ora salva il tuo programma e premi **F5** per eseguire il tuo codice. Dovresti vedere la luce rossa accendere e spegnere continuamente.
+3. Ora salva il programma e premi **F5** per eseguire il codice. Dovresti vedere la luce rossa accendersi e spegnersi continuamente.
 
-4. Ora modifica il tuo codice per introdurre le altre due luci e farle lampeggiare a velocità diverse:
+4. Ora modifica il codice per introdurre le altre due luci e farle lampeggiare a velocità diverse:
     
     ```python
 da gpiozero import LED rosso = LED (22) ambra = LED (27) verde = LED (17) rosso.blink (1, 1) ambra.blink (2, 2) green.blink (3, 3)
