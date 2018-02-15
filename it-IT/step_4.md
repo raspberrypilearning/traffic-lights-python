@@ -20,11 +20,11 @@ rosso.blink()
 from gpiozero import LED
 
 rosso = LED(22) 
-ambra = LED(27)
+giallo = LED(27)
 verde = LED(17) 
 
 rosso.blink(1, 1) 
-ambra.blink(2, 2) 
+giallo.blink(2, 2) 
 verde.blink(3, 3)
 ```
 
