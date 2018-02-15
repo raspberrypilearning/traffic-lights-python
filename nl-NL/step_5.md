@@ -45,7 +45,7 @@ while True: red.on () slaap (1) amber.on () slaap (1) green.on () slaap (1) red.
 - Rood uit, groen aan
 - Groen uit, oranje aan
 - Oranje uit, rood aan
-- Rood en oranje op
+- Rood en oranje aan
 - Groen aan
 
 Het is belangrijk om na te denken over de tijdsduur van elk licht. Hoe lang moet het licht aan blijven in elke fase?
