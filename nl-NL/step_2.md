@@ -1,6 +1,6 @@
-## Wat je nodig zult hebben
+## Wat heb je nodig
 
-### Hardware
+### Onderdelen
 
 - Raspberry Pi
-- pi-stop verkeerslichten of 3x LED's en weerstanden
+- pi-stop verkeerslichten of 3 LED's met weerstanden
