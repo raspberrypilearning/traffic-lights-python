@@ -1,13 +1,13 @@
 ---
 title: Controlla un semaforo con Python
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Impara a controllare i semafori e crea una sequenza di luci con Python
 theme: rosso
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmazione-0, phys-comp-0
+curriculum: programming-0, phys-comp-0
 interests: "physical computing"
 technologies: "elettronica, physical computing, python"
 site_areas: ""
