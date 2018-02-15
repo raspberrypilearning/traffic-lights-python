@@ -1,6 +1,6 @@
 ## Contrôlez les DELs
 
-1. Ouvrez Python 3 à partir du menu principal et ouvrez un nouveau fichier.
+1. Lancez Python 3 à partir du menu principal et ouvrez un nouveau fichier.
 
 2. Entrez le code suivant:
     
