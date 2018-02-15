@@ -18,25 +18,33 @@ groen.on()
 sleep (1)
 ```
 
-De belangrijkste bedieningselementen voor LED's zijn `on`, `uit`, `toggle` en `knipperen`.
+De belangrijkste bedieningselementen voor LED's zijn `on` aan, `off` uit, `toggle` wissel en `blink` knipperen.
 
 2. Probeer de lichten achter elkaar in en uit te schakelen:
     
     ```python
-red.on () slaap (1) amber.on () slaap (1) green.on () slaap (1) red.off () slaap (1) amber.off () slaap (1) green.off ()
+rood.off()
+groen.on()
+sleep(1)
+groen.off()
+oranje.on()
+sleep(1)
+oranje.off()
+rood.on()
+sleep(1)
 ```
 
-3. Probeer dit te herhalen door de code in een `while` lus:
+3. Probeer dit te herhalen door de code in een `while` lus te zetten:
     
     ```python
 while True: red.on () slaap (1) amber.on () slaap (1) green.on () slaap (1) red.off () slaap (1) amber.off () slaap (1) groen. uit()
 ```
 
-4. Nu weet u hoe u de lichten afzonderlijk bedient en de pauzes tussen opdrachten kunt u een opeenvolging van verkeerslichten maken? De volgorde gaat:
+4. Nu weet je hoe je de lichten en de pauzes tussen opdrachten afzonderlijk kunt besturen, kun je nu een goede volgorde en tijdsduur voor een verkeerslicht maken? De volgorde is:
 
-- Groen aan
-- Amber aan
-- Rood aan
+- Rood uit, groen aan
+- Groen uit, oranje aan
+- Oranje uit, rood aan
 - Rood en oranje op
 - Groen aan
 
