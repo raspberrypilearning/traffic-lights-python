@@ -5,17 +5,29 @@
 2. Voer de volgende code in:
     
     ```python
-van gpiozero importeren LED rood = LED (22) red.blink ()
+from gpiozero import 
+LED 
+
+rood = LED (22)
+
+rood.blink ()
 ```
 
-3. Sla nu je programma op en druk op **F5** om uw code uit te voeren. Je zou het rode lampje continu aan en uit moeten zien flitsen.
+3. Sla nu je programma op en druk op **F5** om je code uit te voeren. Het rode lampje zou continu aan en uit moeten gaan.
 
-4. Pas nu uw code aan om de andere twee lampen te introduceren en laat ze op verschillende snelheden knipperen:
+4. Pas nu je code aan om de andere twee lampen te besturen en laat ze op verschillende snelheden knipperen:
     
     ```python
-van gpiozero importeren LED rood = LED (22) oranje = LED (27) groen = LED (17) rood. knipperen (1, 1) amber.blink (2, 2) green.blink (3, 3)
+from gpiozero import LED
+rood = LED (22)
+oranje = LED (27)
+groen = LED (17)
+
+rood.blink(1, 1)
+oranje.blink(2, 2)
+groen.blink (3, 3)
 ```
 
-5. Voer uw code opnieuw uit en u zou de drie lampjes met verschillende snelheden moeten zien knipperen.
+5. Voer je code opnieuw uit en je zou de drie lampjes met verschillende snelheden moeten zien knipperen.
 
-6. Als een groter getal het lampje langzamer laat knipperen, welk cijfer zou het dan sneller laten werken? Probeer je lichten sneller te laten knipperen.
+6. Als een groter getal het lampje langzamer laat knipperen, welk getal zou het dan sneller laten knipperen? Probeer je lichten sneller te laten knipperen.
