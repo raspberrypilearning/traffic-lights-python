@@ -1,14 +1,14 @@
 ## Irányítsd a LED-eket
 
-1. Nyissa meg a Python 3-at a főmenüből, és nyisson meg egy új fájlt.
+1. A főmenüből nyisd meg a Python 3-at, majd nyiss meg egy új fájlt.
 
-2. Adja meg a következő kódot:
+2. Add meg a következő kódot:
     
     ```python
 a gpiozero importból LED piros = LED (22) red.blink ()
 ```
 
-3. Most mentse el a programot, és nyomja meg a **F5** futtatni a kódot. A piros lámpát folyamatosan be kell kapcsolni és ki kell kapcsolni.
+3. Mentsd el a programot és nyomd meg a **F5** -t, hogy futtasd a kódot. Most láthatod, hogy a piros lámpa fénye folyamatosan ki-be kapcsol.
 
 4. Most módosítsa a kódot, hogy bemutassa a másik két lámpát, és különböző sebességgel villogjon:
     
