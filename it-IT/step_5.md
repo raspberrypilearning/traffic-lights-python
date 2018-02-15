@@ -56,11 +56,11 @@ while True:
 4. Ora sai come controllare le luci individualmente e come gestire le pause tra i comandi, puoi creare una sequenza di luci come quelle di un semaforo? La sequenza è questa:
 
 - Verde acceso
-- Ambra acceso
+- Giallo acceso
 - Rosso acceso
-- Rosso e ambra accesi
+- Rosso e giallo accesi
 - Verde acceso
 
-È importante pensare ai tempi. Per quanto tempo dovrebbero rimanere accese le luci in ogni fase?
+È importante pensare alle durate. Per quanto tempo dovrebbero rimanere accese le luci in ogni fase?
 
 Una volta completata la sequenza delle luci, potresti provare ad aggiungere un pulsante e un cicalino per creare una versione interattiva.
