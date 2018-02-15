@@ -1,8 +1,8 @@
-## Csatlakoztassa a LED-eket
+## Csatlakoztasd a LED-eket
 
-1. Csatlakoztassa a LED-eket a következő csapokhoz:
+1. Csatlakoztasd a LED-eket a következő lábakhoz:
 
-| VEZETTE   | GPIO tű |
+| LED       | GPIO tű |
 | --------- |:-------:|
 | Piros     |   22    |
 | Borostyán |   27    |
