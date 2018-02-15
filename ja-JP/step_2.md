@@ -1,6 +1,6 @@
-## あなたが必要とするもの
+## 必要なもの
 
 ### ハードウェア
 
 - ラズベリーパイ
-- pi-stop信号または3x LEDと抵抗
+- pi-stop traffic lightsまたは、3x LEDと抵抗
