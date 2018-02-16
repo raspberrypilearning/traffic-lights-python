@@ -23,7 +23,17 @@ LEDのメインコントロールは、`on`、`off`、`toggle` `点滅`となり
 2. 順番にライトをオンまたはオフにしてみてください：
     
     ```python
-red.on（）sleep（1）amber.on（）sleep（1）green.off（）sleep（1）red.off（）sleep（1）
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
+red.off()
+sleep(1)
+amber.off()
+sleep(1)
+green.off()
 ```
 
 3. `の中にコードを入れてこれを繰り返す`ループ：
