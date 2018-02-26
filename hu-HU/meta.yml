@@ -1,0 +1,24 @@
+---
+title: A jelzőlámpa sorrendjének vezérlése Pythontal
+hero_image: images / banner.png
+description: Tanuld meg szabályozi a jelzőlámpák fényeit és kódold a forgalmi jelzőt a Python segítségével
+theme: piros
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programozás-0, fizikai-comp-0
+interests: "fizikai számítástechnika"
+technologies: "elektronika, fizikai számítástechnika, python"
+site_areas: ""
+steps:
+  - 
+    title: Bevezetés
+  - 
+    title: Amire szükséged lesz
+  - 
+    title: Csatlakoztasd a LED-eket
+  - 
+    title: Vezéreld a LED-eket
+  - 
+    title: A közlekedési lámpa sorrendje

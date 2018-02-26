@@ -1,0 +1,24 @@
+---
+title: Contrôler une séquence de feux de signalisation avec Python
+hero_image: images/banner.png
+description: Apprenez à contrôler les DELs du feu et à coder une séquence de feux de signalisation avec Python
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "electronics, physical computing, python"
+site_areas: ""
+steps:
+  - 
+    title: Introduction
+  - 
+    title: Ce dont vous aurez besoin
+  - 
+    title: Connectez les DELs
+  - 
+    title: Contrôlez les DELs
+  - 
+    title: Séquence de feux de signalisation

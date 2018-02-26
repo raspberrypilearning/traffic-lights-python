@@ -1,0 +1,24 @@
+---
+title: Pythonでトラフィックライトシーケンスを制御する
+hero_image: images / banner.png
+description: 信号灯のLEDを制御する方法と、Pythonを使用して信号灯のシーケンスを記述する方法
+theme: 赤
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: プログラミング-0、phys-comp-0
+interests: "物理計算"
+technologies: "エレクトロニクス、物理計算機、Python"
+site_areas: ""
+steps:
+  - 
+    title: 前書き
+  - 
+    title: あなたが必要とするもの
+  - 
+    title: LEDを接続する
+  - 
+    title: LEDの制御
+  - 
+    title: 交通信号のシーケンス

@@ -1,0 +1,24 @@
+---
+title: Contrôler une séquence de feux de signalisation avec Python
+hero_image: images/banner.png
+description: Apprenez à contrôler les LEDs du feu et à coder une séquence de feux de signalisation avec Python
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "électronique, informatique physique, python"
+site_areas: ""
+steps:
+  - 
+    title: Introduction
+  - 
+    title: Ce dont vous aurez besoin
+  - 
+    title: Connectez les LEDs
+  - 
+    title: Contrôlez les LEDs
+  - 
+    title: Séquence de feux de signalisation
