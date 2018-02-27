@@ -1,24 +1,24 @@
 ---
 title: کنترل ترتیب چراغ راهنمایی با پایتون
 hero_image: images / banner.png
-description: یاد بگیرید برای کنترل چراغ های چراغ ترافیک و یک دنباله چراغ راهنمایی با استفاده از پایتون کد کنید
-theme: سرخ
+description: آموزش کنترل LEDهای چراغ راهنمایی و کدنویسی آن با استفاده از پایتون
+theme: قرمز
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
 curriculum: programming-0، phys-comp-0
-interests: "محاسبات فیزیکی"
-technologies: "الکترونیک، محاسبات فیزیکی، پایتون"
+interests: "physical computing"
+technologies: "electronics, physical computing, python"
 site_areas: ""
 steps:
   - 
-    title: معرفی
+    title: مقدمه
   - 
     title: آنچه شما نیاز دارید
   - 
-    title: LED ها را وصل کنید
+    title: LEDها را وصل کنید
   - 
-    title: کنترل LED ها
+    title: کنترل LEDها
   - 
     title: ترتیب چراغ راهنمایی
