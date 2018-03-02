@@ -18,7 +18,7 @@
     sleep(1)
     ```
 
-Les commandes principales des LEDs sont les suivantes: `on`, `off`, `toggle` et `blink`.
+    Les commandes principales des LEDs sont les suivantes: `on`, `off`, `toggle` et `blink`.
 
 2. Essayez d'allumer et d'éteindre les lumières dans l'ordre:
     
