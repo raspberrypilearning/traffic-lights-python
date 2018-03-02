@@ -18,7 +18,7 @@
     sleep(1)
     ```
 
-I controlli principali per i LED sono `on`, `off`, `toggle` e `blink`.
+    I controlli principali per i LED sono `on`, `off`, `toggle` e `blink`.
 
 2. Prova ad accendere e spegnere in sequenza le luci:
     
@@ -55,11 +55,11 @@ I controlli principali per i LED sono `on`, `off`, `toggle` e `blink`.
 
 4. Ora sai come controllare le luci individualmente e come gestire le pause tra i comandi, puoi creare una sequenza di luci come quelle di un semaforo? La sequenza è questa:
 
-- Verde acceso
-- Giallo acceso
-- Rosso acceso
-- Rosso e giallo accesi
-- Verde acceso
+    - Verde acceso
+    - Giallo acceso
+    - Rosso acceso
+    - Rosso e giallo accesi
+    - Verde acceso
 
 È importante pensare alle durate. Per quanto tempo dovrebbero rimanere accese le luci in ogni fase?
 
