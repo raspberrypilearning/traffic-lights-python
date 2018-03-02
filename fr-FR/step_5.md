@@ -3,55 +3,55 @@
 1. La fonction `on` vous permet d'allumer une lumière. Vous pouvez utiliser `sleep` pour faire une pause entre les commandes. Essayez cet exemple pour allumer les lumières en séquence:
     
     ```python
-from gpiozero import LED
-from time import sleep
+    from gpiozero import LED
+    from time import sleep
 
-rouge = LED(22)
-ambre = LED(27)
-vert = LED(17)
+    rouge = LED(22)
+    ambre = LED(27)
+    vert = LED(17)
 
-rouge.on()
-sleep(1)
-ambre.on()
-sleep(1)
-vert.on()
-sleep(1)
-```
+    rouge.on()
+    sleep(1)
+    ambre.on()
+    sleep(1)
+    vert.on()
+    sleep(1)
+    ```
 
 Les commandes principales des LEDs sont les suivantes: `on`, `off`, `toggle` et `blink`.
 
 2. Essayez d'allumer et d'éteindre les lumières dans l'ordre:
     
     ```python
-rouge.on()
-sleep(1)
-ambre.on()
-sleep(1)
-vert.on()
-sleep(1)
-rouge.off()
-sleep(1)
-ambre.off()
-sleep(1)
-vert.off()
-```
+    rouge.on()
+    sleep(1)
+    ambre.on()
+    sleep(1)
+    vert.on()
+    sleep(1)
+    rouge.off()
+    sleep(1)
+    ambre.off()
+    sleep(1)
+    vert.off()
+    ```
 
 3. Essayez de répéter ceci en plaçant le code dans une boucle `while` :
     
     ```python
-while True:
-   rouge.on()
-   sleep(1)
-   ambre.on()
-   sleep(1)
-   vert.on()
-   sleep(1)
-   rouge.off()
-   sleep(1)
-   ambre.off()
-   sleep(1)
-   vert.off()
-```
+    while True:
+       rouge.on()
+       sleep(1)
+       ambre.on()
+       sleep(1)
+       vert.on()
+       sleep(1)
+       rouge.off()
+       sleep(1)
+       ambre.off()
+       sleep(1)
+       vert.off()
+    ```
 
 4. Maintenant que vous savez comment contrôler les lumières individuellement, et régler les pauses entre les commandes, pouvez-vous créer une séquence de feux de signalisation? La séquence suit:
 
