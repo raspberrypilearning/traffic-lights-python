@@ -55,11 +55,11 @@
 
 4. Maintenant que vous savez comment contrôler les lumières individuellement, et régler les pauses entre les commandes, pouvez-vous créer une séquence de feux de signalisation? La séquence suit:
 
-- Vert allumé
-- Ambre allumé
-- Rouge allumé
-- Rouge et ambre allumés
-- Vert allumé
+    - Vert allumé
+    - Ambre allumé
+    - Rouge allumé
+    - Rouge et ambre allumés
+    - Vert allumé
 
 Il est important de penser au timing. Combien de temps les lumières doivent-elles rester allumées à chaque étape?
 
