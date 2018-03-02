@@ -3,4 +3,4 @@
 ### Matériel informatique
 
 - Raspberry Pi
-- feux de signalisation pi-stop ou 3x LEDs et résistances
+- Feux de signalisation pi-stop ou 3x LEDs et résistances
