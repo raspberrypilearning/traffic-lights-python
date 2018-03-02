@@ -1,6 +1,6 @@
 ---
 title: Bestuur een verkeerslicht met Python
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Leer een verkeerslicht te besturen en te programmeren met behulp van Python
 theme: red
 duration: 2
@@ -12,13 +12,13 @@ interests: "physical computing"
 technologies: "electronics, physical computing, python"
 site_areas: ""
 steps:
-  - 
+  -
     title: Introductie
-  - 
+  -
     title: Wat heb je nodig
-  - 
+  -
     title: Verbind de LED's
-  - 
+  -
     title: Bestuur de LED's
-  - 
+  -
     title: Volgorde verkeerslichten
