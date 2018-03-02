@@ -5,28 +5,28 @@
 2. 次のコードを入力します。
     
     ```python
-from gpiozero import LED
+    from gpiozero import LED
 
-red = LED(22)
+    red = LED(22)
 
-red.blink()
-```
+    red.blink()
+    ```
 
 3. ファイルを保存し、**F5**を押してコードを実行します。 赤いライトが連続的に点滅するはずです。
 
 4. コードを変更して、他の2つのライトを異なる速度で点滅させるようにします。
     
     ```python
-from gpiozero import LED
+    from gpiozero import LED
 
-red = LED(22)
-amber = LED(27)
-green = LED(17)
+    red = LED(22)
+    amber = LED(27)
+    green = LED(17)
 
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
-```
+    red.blink(1, 1)
+    amber.blink(2, 2)
+    green.blink(3, 3)
+    ```
 
 5. もう一度コードを実行すると、3つのライトが異なる速度で点滅していることがわかります。
 
