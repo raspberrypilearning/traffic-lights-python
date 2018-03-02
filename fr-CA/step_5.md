@@ -18,7 +18,7 @@
     sleep(1)
     ```
 
-Les commandes principales pour les DELs sont `on`, `off`, `toggle` et `blink`.
+    Les commandes principales pour les DELs sont `on`, `off`, `toggle` et `blink`.
 
 2. Essayez d'allumer et d'éteindre les feux en séquence:
     
@@ -55,11 +55,11 @@ Les commandes principales pour les DELs sont `on`, `off`, `toggle` et `blink`.
 
 4. Maintenant vous savez comment contrôler les feux individuellement et ajuster les poses entre les commandes. Pouvez-vous créer une séquence de feux de circulation? Voici la séquence:
 
-- Vert allumé
-- Jaune on
-- Rouge on
-- Rouge et ambre allumés
-- Vert allumé
+    - Vert allumé
+    - Jaune on
+    - Rouge on
+    - Rouge et ambre allumés
+    - Vert allumé
 
 Il est important de penser à la durée de chacun des feux. Combien de temps chaque feux devrait-il rester allumé?
 
