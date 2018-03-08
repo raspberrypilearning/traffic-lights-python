@@ -6,7 +6,7 @@ duration: 2 # possible values: 1, 2 or 3
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
+curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: "physical computing"
 technologies: "electronics, physical computing, python"
 site_areas:
