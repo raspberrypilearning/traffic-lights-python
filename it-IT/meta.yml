@@ -7,18 +7,22 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python"
-site_areas: ""
-steps:
-  -
-    title: Introduzione
-  -
-    title: Cosa ti serve
-  -
-    title: Collega i LED
-  -
-    title: Controlla i LED
-  -
-    title: La sequenza del semaforo
+curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
+interests: ''
+technologies: electronic-components, python
+site_areas: jam
+hardware: electronic-components
+software: python
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: Introduzione
+-
+title: Cosa ti serve
+-
+title: Collega i LED
+-
+title: Controlla i LED
+-
+title: La sequenza del semaforo
