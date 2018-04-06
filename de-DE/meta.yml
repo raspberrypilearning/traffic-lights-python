@@ -16,13 +16,8 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: Einleitung
--
-title: Was du brauchen wirst
--
-title: Verbinde die LEDs
--
-title: Steuere die LEDs
--
-title: Ampel Sequenz
+-title: Einleitung
+-title: Was du brauchen wirst
+-title: Verbinde die LEDs
+-title: Steuere die LEDs
+-title: Ampel Sequenz
