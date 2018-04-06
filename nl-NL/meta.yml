@@ -16,13 +16,8 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: Introductie
--
-title: Wat heb je nodig
--
-title: Verbind de LED's
--
-title: Bestuur de LED's
--
-title: Volgorde verkeerslichten
+-title: Introductie
+-title: Wat heb je nodig
+-title: Verbind de LED's
+-title: Bestuur de LED's
+-title: Volgorde verkeerslichten
