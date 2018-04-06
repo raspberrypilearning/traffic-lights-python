@@ -16,13 +16,8 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: 前書き
--
-title: あなたが必要とするもの
--
-title: LEDを接続する
--
-title: LEDの制御
--
-title: 交通信号のシーケンス
+-title: 前書き
+-title: あなたが必要とするもの
+-title: LEDを接続する
+-title: LEDの制御
+-title: 交通信号のシーケンス
