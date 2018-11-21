@@ -32,8 +32,6 @@ title: What you will learn
 title: Information for Jam organisers
 ---
 
-You can download the complete code for this project at [rpf.io/p/en/traffic-lights-scratch2-get](https://rpf.io/p/en/traffic-lights-python-get).
-
 --- no-print ---
 
 If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf) is available. Please observe any notes on this page before printing.
