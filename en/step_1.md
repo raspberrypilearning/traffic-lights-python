@@ -13,6 +13,12 @@ title: What you will need
     - pi-stop traffic light board
     - or 3x LEDs and resistors
 
+You'll need to install Mu. Open a Terminal window and type the following command:
+
+```bash
+sudo apt install mu-editor
+```
+
 --- /collapse ---
 
 --- collapse ---

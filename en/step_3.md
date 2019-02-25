@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open **Python 3** from the main menu, and open a new file.
+Open **Mu** from the main menu.
 
 --- /task ---
 
