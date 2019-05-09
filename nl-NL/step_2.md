@@ -1,6 +1,15 @@
-## Wat heb je nodig
+## Connect the LEDs
 
-### Onderdelen
+\--- task \---
 
-- Raspberry Pi
-- pi-stop verkeerslichten of 3 LED's met weerstanden
+Connect your LEDs to the following pins:
+
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
+
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+
+\--- /task \---
