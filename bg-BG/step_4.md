@@ -1,21 +1,82 @@
-## Контролирайте светодиодите
+## Traffic lights sequence
 
-1. Отворете Python 3 от главното меню и отворете нов файл.
+\--- task \---
 
-2. Въведете следния код:
-    
-    ```python
-от gpiozero внос LED червен = LED (22) red.blink ()
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+
+```python
+from gpiozero import LED
+from time import sleep
+
+red = LED(22)
+amber = LED(27)
+green = LED(17)
+
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
 ```
 
-3. Сега запазете програмата си и натиснете **F5** за да стартирате кода си. Трябва да виждате червената светлина да мига и изключва непрекъснато.
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-4. Сега променете кода си, за да въведете другите две светлини и ги накарайте да мигат при различни скорости:
-    
-    ```python
-от gpiozero внос LED червен = LED (22) кехлибарен = LED (27) зелен = LED (17) red.blink (1, 1) amber.blink (2,
+\--- /task \---
+
+\--- task \---
+
+Try turning the lights on and off in sequence:
+
+```python
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
+red.off()
+sleep(1)
+amber.off()
+sleep(1)
+green.off()
 ```
 
-5. Изпълнете кода си отново и трябва да видите, че три светлини мигат с различни честоти.
+\--- /task \---
 
-6. Ако по-голям брой прави светлинното мигане по-бавно, колко число ще го направи по-бързо? Опитайте се да накарате лампите да мигат по-бързо.
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+```python
+while True:
+    red.on()
+    sleep(1)
+    amber.on()
+    sleep(1)
+    green.on()
+    sleep(1)
+    red.off()
+    sleep(1)
+    amber.off()
+    sleep(1)
+    green.off()
+```
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
