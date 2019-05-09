@@ -1,33 +1,82 @@
-## کنترل LEDها
+## Traffic lights sequence
 
-1. پایتون 3 را از منوی اصلی باز کنید و فایل جدیدی را باز نمایید.
+\--- task \---
 
-2. کد زیر را وارد کنید:
-    
-    ```python
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+
+```python
 from gpiozero import LED
-
-red = LED(22)
-
-red.blink()
-```
-
-3. حال برنامه‌ی خود را ذخیره کنید و برای اجرای کد، کلید **F5** را فشار دهید. در این حالت، چراغ قرمز به صورت مداوم روشن و خاموش می‌شود.
-
-4. حالا کد خود را برای افزودن دو چراغ دیگر تغییر دهید و سرعت چشمک زدن آن‌ها را متفاوت قرار دهید:
-    
-    ```python
-from gpiozero import LED
+from time import sleep
 
 red = LED(22)
 amber = LED(27)
 green = LED(17)
 
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
 ```
 
-5. دوباره کد خود را اجرا کنید و باید ببینید که سه چراغ با سرعت‌های مختلف خاموش و روشن می‌شوند.
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-6. اگر یک عدد بزرگ‌تر باعث می شود که چراغ با سرعت کم‌تری چشمک بزند، چه عددی باعث می‌شود که سرعت چشمک زدن افزایش یابد؟ سعی کنید که چراغ‌های شما با سرعت بیش‌تری چشمک بزنند.
+\--- /task \---
+
+\--- task \---
+
+Try turning the lights on and off in sequence:
+
+```python
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
+red.off()
+sleep(1)
+amber.off()
+sleep(1)
+green.off()
+```
+
+\--- /task \---
+
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+```python
+while True:
+    red.on()
+    sleep(1)
+    amber.on()
+    sleep(1)
+    green.on()
+    sleep(1)
+    red.off()
+    sleep(1)
+    amber.off()
+    sleep(1)
+    green.off()
+```
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
