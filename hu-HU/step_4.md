@@ -1,21 +1,82 @@
-## Vezéreld a LED-eket
+## Traffic lights sequence
 
-1. Nyisd meg a Python 3-at a főmenüből, majd nyiss meg egy új fájlt.
+\--- task \---
 
-2. Add meg a következő kódot:
-    
-    ```python
-from gpiozero import LED piros = LED(22) piros.blink()
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+
+```python
+from gpiozero import LED
+from time import sleep
+
+red = LED(22)
+amber = LED(27)
+green = LED(17)
+
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
 ```
 
-3. Mentsd el a programot és nyomd meg az **F5** -t hogy futtasd a kódodat. Most láthatod, hogy a piros lámpa fénye folyamatosan ki-be kapcsol.
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-4. Most változtass a kódodon és add hozzá a másik két lámpát a különböző villanási sebességekkel:
-    
-    ```python
-from gpiozero import LED piros = LED(22) sárga = LED(27) zöld = LED(17) piros.blink(1, 1) sárga.blink(2, 2) zöld.blink(3, 3)
+\--- /task \---
+
+\--- task \---
+
+Try turning the lights on and off in sequence:
+
+```python
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
+red.off()
+sleep(1)
+amber.off()
+sleep(1)
+green.off()
 ```
 
-5. Futtasd újra a kódot, és látni fogod, hogy a három lámpa különböző sebességgel villog.
+\--- /task \---
 
-6. Ha egy nagyobb szám a lámpa villogását lassítja, akkor milyen szám gyorsítja a fényeket? Próbáld meg gyorsítani a fényeket.
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+```python
+while True:
+    red.on()
+    sleep(1)
+    amber.on()
+    sleep(1)
+    green.on()
+    sleep(1)
+    red.off()
+    sleep(1)
+    amber.off()
+    sleep(1)
+    green.off()
+```
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
