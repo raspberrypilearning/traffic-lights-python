@@ -1,24 +1,17 @@
 ---
-title: Контролирайте последователността на светлините на трафика с Python
+title: Traffic Lights with Python
 hero_image: изображения / banner.png
 description: Научете се да управлявате светодиодите със светофар и да кодирате последователността на светофарите с помощта на Python
-theme: червен
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: "физически изчисления"
-technologies: "електроника, физически изчисления, питон"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Въведение
   - 
-    title: Какво ще ви трябва
+    title: Connect the LEDs
   - 
-    title: Свържете светодиодите
+    title: Control the LEDs
   - 
-    title: Контролирайте светодиодите
-  - 
-    title: Последователност на светофарите
+    title: Traffic lights sequence
