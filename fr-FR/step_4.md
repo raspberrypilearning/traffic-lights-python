@@ -1,33 +1,82 @@
-## Contrôlez les LEDs
+## Traffic lights sequence
 
-1. Ouvrez Python 3 à partir du menu principal et ouvrez un nouveau fichier.
+\--- task \---
 
-2. Entrez le code suivant:
-    
-    ```python
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+
+```python
 from gpiozero import LED
+from time import sleep
 
-rouge = LED(22)
+red = LED(22)
+amber = LED(27)
+green = LED(17)
 
-rouge.blink()
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
 ```
 
-3. Maintenant, sauvegardez votre programme et appuyez sur **F5** pour faire fonctionner votre code. Vous devriez voir la lumière rouge clignoter continuellement.
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-4. Maintenant, modifiez votre code pour introduire les deux autres lumières et faites-les clignoter à différentes vitesses:
-    
-    ```python
-from gpiozero import LED
+\--- /task \---
 
-rouge = LED(22)
-ambre = LED(27)
-vert = LED(17)
+\--- task \---
 
-rouge.blink(1, 1)
-ambre.blink(2, 2)
-vert.blink(3, 3)
+Try turning the lights on and off in sequence:
+
+```python
+red.on()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
+red.off()
+sleep(1)
+amber.off()
+sleep(1)
+green.off()
 ```
 
-5. Exécutez votre code à nouveau et vous devriez voir les trois lumières clignotant à des taux différents.
+\--- /task \---
 
-6. Si un plus grand nombre fait clignoter une lumière plus lentement, quel nombre le ferait fonctionner plus vite? Essayez de faire clignoter vos lumières plus rapidement.
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+```python
+while True:
+    red.on()
+    sleep(1)
+    amber.on()
+    sleep(1)
+    green.on()
+    sleep(1)
+    red.off()
+    sleep(1)
+    amber.off()
+    sleep(1)
+    green.off()
+```
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
