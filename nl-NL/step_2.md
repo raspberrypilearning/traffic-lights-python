@@ -1,14 +1,14 @@
-## Connect the LEDs
+## Verbind de LED's
 
 \--- task \---
 
-Connect your LEDs to the following pins:
+Verbind je LED's met de volgende pinnen:
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| LED         | GPIO-pin |
+| ----------- |:--------:|
+| Rood        |    22    |
+| Oranje/geel |    27    |
+| Groen       |    17    |
 
 ![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
