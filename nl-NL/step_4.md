@@ -1,52 +1,50 @@
-## Traffic lights sequence
+## Verkeerslichten volgorde
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+Met de `on` functie kan je een licht aanschakelen. Je kunt `sleep` gebruiken om te pauzeren tussen opdrachten. Probeer dit voorbeeld eens om de lichten achter elkaar in te schakelen:
 
 ```python
 from gpiozero import LED
 from time import sleep
 
-red = LED(22)
-amber = LED(27)
-green = LED(17)
+rood = LED (22)
+oranje = LED (27)
+groen = LED (17)
 
-red.on()
+rood.on()
 sleep(1)
-amber.on()
+oranje.on()
 sleep(1)
-green.on()
-sleep(1)
+groen.on()
+sleep (1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+De belangrijkste bedieningselementen voor LED's zijn `on` aan, `off` uit, `toggle` wissel en `blink` knipperen.
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+Probeer de lichten achter elkaar in en uit te schakelen:
 
 ```python
-red.on()
+rood.off()
+groen.on()
 sleep(1)
-amber.on()
+groen.off()
+oranje.on()
 sleep(1)
-green.on()
+oranje.off()
+rood.on()
 sleep(1)
-red.off()
-sleep(1)
-amber.off()
-sleep(1)
-green.off()
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+Probeer dit te herhalen door de code in een `while` lus te zetten:
 
 ```python
 while True:
@@ -67,16 +65,16 @@ while True:
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Nu weet je hoe je de lichten en de pauzes tussen opdrachten afzonderlijk kunt besturen, kun je nu een goede volgorde en tijdsduur voor een verkeerslicht maken? De volgorde is:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Rood uit, groen aan
+- Groen uit, oranje aan
+- Oranje uit, rood aan
+- Rood en oranje aan
+- Groen aan
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Het is belangrijk om na te denken over de tijdsduur van elk licht. Hoe lang moet het licht in elke fase aan blijven?
 
 \--- /task \---
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+Nadat je het verkeerslicht hebt voltooid, kunt je proberen een knop en een zoemer toe te voegen om een ​​interactieve versie voor een zebrapad te maken.
