@@ -1,4 +1,4 @@
-## Control the LEDs
+## کنترل LEDها
 
 \--- task \---
 
@@ -8,7 +8,7 @@ Open **Mu** from the main menu.
 
 \--- task \---
 
-Enter the following code:
+کد زیر را وارد کنید:
 
 ```python
 from gpiozero import LED
@@ -22,13 +22,13 @@ red.blink()
 
 \--- task \---
 
-Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+حال برنامه‌ی خود را ذخیره کنید و برای اجرای کد، کلید **F5** را فشار دهید. در این حالت، چراغ قرمز به صورت مداوم روشن و خاموش می‌شود.
 
 \--- /task \---
 
 \--- task \---
 
-Now modify your code to introduce the other two lights, and make them blink at different speeds:
+حالا کد خود را برای افزودن دو چراغ دیگر تغییر دهید و آنها را وادار کنید با دو سرعت متفاوت چشمک بزنند:
 
 ```python
 from gpiozero import LED
@@ -46,12 +46,12 @@ green.blink(3, 3)
 
 \--- task \---
 
-Run your code again and you should see the three lights flashing at different rates.
+وقتی دوباره کد خود را اجرا کنید باید ببینید که سه چراغ با سرعت‌های مختلف خاموش و روشن می‌شوند.
 
 \--- /task \---
 
 \--- task \---
 
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+اگر یک عدد بزرگ‌تر باعث می شود که چراغ با سرعت کم‌تری چشمک بزند، چه عددی باعث می‌شود که سرعت چشمک زدن افزایش یابد؟ سعی کنید که چراغ‌های شما با سرعت بیش‌تری چشمک بزنند.
 
 \--- /task \---
