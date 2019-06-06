@@ -1,8 +1,8 @@
-## Traffic lights sequence
+## ترتیب چراغ راهنمایی
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+تابع `on` به شما اجازه می‌دهد تا یک چراغ را روشن کنید. شما می‌توانید از `sleep` برای ایجاد تاخیر بین دستورات استفاده کنید. از این مثال برای روشن کردن پشت سر هم چراغ‌ها استفاده کنید:
 
 ```python
 from gpiozero import LED
@@ -20,13 +20,13 @@ green.on()
 sleep(1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+کنترل‌های اصلی برای LED‌ها، `toggle`` ،off` `،on` و `blink` هستند.
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+سعی کنید چراغ‌ها را به ترتیب روشن و خاموش کنید:
 
 ```python
 red.on()
@@ -46,7 +46,7 @@ green.off()
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+برای تکرار این کد آن را در داخل یک حلقه‌ی `while` قرار دهید:
 
 ```python
 while True:
@@ -67,16 +67,16 @@ while True:
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+حالا شما می دانید که چگونه خودتان کنترل چراغ ها را انجام دهید و زمان مکث بین دستورات را تنظیم نمایید، آیا می‌توانید یک چراغ راهنمایی با ترتیب زیر بسازید؟ ترتیب به این صورت است:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- سبز روشن
+- زرد روشن
+- قرمز روشن
+- قرمز و زرد روشن
+- سبز روشن
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+مهم است که در مورد زمان بندی فکر کنید. برای چه مدت باید چراغ ها در هر مرحله روشن بمانند؟
 
 \--- /task \---
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+پس از اتمام چراغ راهنمایی، می توانید به آن یک دکمه و زنگ برای ایجاد یک نسخه تعاملی اضافه کنید.
