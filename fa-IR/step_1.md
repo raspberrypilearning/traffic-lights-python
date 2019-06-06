@@ -1,6 +1,6 @@
 ## مقدمه
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python.
+آموزش کنترل LEDهای چراغ راهنمایی و کدنویسی آن با استفاده از پایتون.
 
 \--- collapse \---
 
@@ -38,10 +38,10 @@ sudo apt install mu-editor
 
 ## title: Information for Jam organisers
 
-\--- no-print \---
+\--- بدون چاپ \---
 
 If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf) is available. Please observe any notes on this page before printing.
 
-\--- /no-print \---
+\--- /بدون چاپ \---
 
 \--- /collapse \---
