@@ -1,6 +1,6 @@
-## Introductie
+## Inleiding
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python.
+Leer een verkeerslicht te besturen en te programmeren met behulp van Python.
 
 \--- collapse \---
 
@@ -25,7 +25,7 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: Wat ga je leren
 
 - Controlling your Raspberry Pi's GPIO pins using Python
 - Using LEDs with your Raspberry Pi
