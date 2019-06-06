@@ -1,7 +1,7 @@
 ---
 title: Traffic Lights with Python
 hero_image: images/banner.png
-description: آموزش کنترل LEDهای چراغ راهنمایی و کدنویسی آن با استفاده از پایتون
+description: آموزش کنترل چراغ های چراغ راهنمایی و کد نویسی چراغ راهنمایی با استفاده از پایتون
 listed: false
 copyedit: false
 version: 4.1
@@ -10,8 +10,8 @@ steps:
   - 
     title: مقدمه
   - 
-    title: Connect the LEDs
+    title: LEDها را وصل کنید
   - 
-    title: Control the LEDs
+    title: کنترل LEDها
   - 
-    title: Traffic lights sequence
+    title: ترتیب چراغ راهنمایی
