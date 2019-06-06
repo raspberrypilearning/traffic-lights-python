@@ -1,57 +1,57 @@
-## Control the LEDs
+## Bedien de LED's
 
 \--- task \---
 
 Open **Mu** from the main menu.
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
-Enter the following code:
+Voer de volgende code in:
 
 ```python
-from gpiozero import LED
+from gpiozero import 
+LED 
 
-red = LED(22)
+rood = LED (22)
 
-red.blink()
+rood.blink ()
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+Sla nu je programma op en druk op **F5** om je code uit te voeren. Het rode lampje zou continu aan en uit moeten gaan.
 
 \--- /task \---
 
 \--- task \---
 
-Now modify your code to introduce the other two lights, and make them blink at different speeds:
+Pas nu je code aan om de andere twee lichtjes te besturen en laat ze op verschillende snelheden knipperen:
 
 ```python
 from gpiozero import LED
+rood = LED (22)
+oranje = LED (27)
+groen = LED (17)
 
-red = LED(22)
-amber = LED(27)
-green = LED(17)
-
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+rood.blink(1, 1)
+oranje.blink(2, 2)
+groen.blink (3, 3)
 ```
 
+-- /task \---
+
+\--- task \----
+
+Voer je code opnieuw uit en je zou de drie lichtjes met verschillende snelheden moeten zien knipperen.
+
 \--- /task \---
 
-\--- task \---
+\--- taak \---
 
-Run your code again and you should see the three lights flashing at different rates.
-
-\--- /task \---
-
-\--- task \---
-
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+Als een groter getal het lampje langzamer laat knipperen, welk getal zou het dan sneller laten knipperen? Probeer je LED's sneller te laten knipperen.
 
 \--- /task \---
