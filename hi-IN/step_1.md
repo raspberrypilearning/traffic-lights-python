@@ -6,7 +6,7 @@ Learn to control traffic light LEDs and code a traffic lights sequence using Pyt
 
 * * *
 
-## title: What you will need
+## title: आपको किन चीजों की आवश्यकता होगी
 
 - Raspberry Pi computer
 - LEDs: 
@@ -25,7 +25,7 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: आप क्या सीखेंगे
 
 - Controlling your Raspberry Pi's GPIO pins using Python
 - Using LEDs with your Raspberry Pi
