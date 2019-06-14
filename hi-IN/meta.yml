@@ -1,17 +1,17 @@
 ---
 title: Traffic Lights with Python
 hero_image: images/banner.png
-description: पायथन के उपयोग से ट्रैफिक लाइट अनुक्रम को नियंत्रित करना सीखें
+description: ट्रैफिक लाइट एल ई डी को नियंत्रित करना जानें और पायथन के उपयोग से ट्रैफिक लाइट अनुक्रम को लिखना सीखें
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: परिचय
+    title: भूमिका
   - 
-    title: Connect the LEDs
+    title: एल. ई. डी. को जोड़े
   - 
-    title: Control the LEDs
+    title: एल. ई. डी. को नियंत्रित करें
   - 
-    title: Traffic lights sequence
+    title: ट्रैफिक लाइट अनुक्रम
