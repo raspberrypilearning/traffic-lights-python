@@ -1,4 +1,4 @@
-## Control the LEDs
+## एल.ई.डी. को नियंत्रित करें.
 
 \--- task \---
 
@@ -8,7 +8,7 @@ Open **Mu** from the main menu.
 
 \--- task \---
 
-Enter the following code:
+निम्नलिखित कोड को दर्ज करें:
 
 ```python
 from gpiozero import LED
@@ -22,13 +22,13 @@ red.blink()
 
 \--- task \---
 
-Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+अब अपना प्रोग्राम save करे और अपना कोड चलाने(Run) के लिए **F5** दबाएँ आपको लाल एल. ई. डी. लगातार फ्लैश करती दिखनी चाहिए
 
 \--- /task \---
 
 \--- task \---
 
-Now modify your code to introduce the other two lights, and make them blink at different speeds:
+अब अन्य दो एल. ई. डी. जोड़ने के लिए अपने कोड को संशोधित(Modify) करें, और उन्हें विभिन्न गतियों पर ब्लिंक करें:
 
 ```python
 from gpiozero import LED
@@ -46,12 +46,12 @@ green.blink(3, 3)
 
 \--- task \---
 
-Run your code again and you should see the three lights flashing at different rates.
+अपना कोड फिर से चलाएं(Run करे) और आपको तीन एल. ई. डी. विभिन्न दरों पर चमकती दिखाई देनी चाहिए।
 
 \--- /task \---
 
 \--- task \---
 
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+अगर प्रोग्राममे बड़ी संख्या लेने से एलईडी की ब्लिंक धीमी हो जाती है, तो तेजी से ब्लिंक करने के लिए प्रोग्राममे कितने नंबर लेने चाहिए? अपनी एलईडी को तेजी से ब्लिंक कराने की कोशिश करें।
 
 \--- /task \---
