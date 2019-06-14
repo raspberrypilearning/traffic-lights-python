@@ -1,8 +1,8 @@
-## Traffic lights sequence
+## ट्रैफिक लाइट अनुक्रम
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+`on` फ़ंक्शन आपको प्रकाश चालू करने की अनुमति देता है। दो कमांड के बीचमे अंतराल के लिए `sleep` का उपयोग कर सकते है। इस उदाहरण की मददसे आप एलईडी को क्रम मे चालू कर सकते है। :
 
 ```python
 from gpiozero import LED
@@ -20,13 +20,13 @@ green.on()
 sleep(1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+`on`, `off`, `toggle` और `blink`एलईडी के लिए मुख्य नियंत्रण है।
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+एलईडी को क्रमानुसार चालू और बंद करने का प्रयास करें:
 
 ```python
 red.on()
@@ -46,7 +46,7 @@ green.off()
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+`while` लूप के अंदर कोड को डालकर इसे दोहराएं:
 
 ```python
 while True:
@@ -67,16 +67,16 @@ while True:
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+अब आप जानते हैं कि एलईडी को अलग-अलग कैसे नियंत्रित किया जा सकता है, और आदेशों के बीच अंतराल (Pause) कैसे उत्पन्न किया जाता है, क्या आप ट्रैफिक लाइट का अनुक्रम बना सकते हैं? अनुक्रम ऐसा है:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- हरा चालू (Green on)
+- पीली चालू (Amber on)
+- लाल चालू (Red on)
+- लाल और पीली चालू (Red and amber on)
+- हरी चालू (Green on)
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+समय के बारे में सोचना महत्वपूर्ण है। प्रत्येक चरण में रोशनी कितनी देर तक चालू रेहनी चाहिए?
 
 \--- /task \---
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+एक बार जब आप ट्रैफिक लाइट अनुक्रम पूरा कर लेंगे, तो आप एक इंटरैक्टिव संस्करण बनाने के लिए बटन और बजर को जोड़ने का प्रयास कर सकते हैं।
