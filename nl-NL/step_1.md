@@ -10,10 +10,10 @@ Leer een verkeerslicht te besturen en te programmeren met behulp van Python.
 
 - Raspberry Pi computer
 - LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+    - pi-verkeerslicht bord
+    - of 3 LED's en weerstanden
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+Je zult Mu moeten installeren. Open een terminalvenster en voer de volgende opdracht in:
 
 ```bash
 sudo apt install mu-editor
@@ -27,8 +27,8 @@ sudo apt install mu-editor
 
 ## title: Wat ga je leren
 
-- Controlling your Raspberry Pi's GPIO pins using Python
-- Using LEDs with your Raspberry Pi
+- De GPIO-pinnen van je Raspberry Pi aansturen met Python
+- Het gebruik van LEDs met jouw Raspberry Pi
 
 \--- /collapse \---
 
@@ -36,11 +36,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## title: Informatie voor Jam organisatoren
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf) is available. Please observe any notes on this page before printing.
+Als je dit project wilt afdrukken, is er een [PDF-versie](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf) beschikbaar. Let op de opmerkingen op deze pagina voordat je gaat afdrukken.
 
 \--- /no-print \---
 
