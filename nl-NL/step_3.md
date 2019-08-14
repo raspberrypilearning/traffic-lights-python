@@ -4,7 +4,7 @@
 
 Open **Mu** vanuit het hoofdmenu.
 
----/task---
+--- /task ---
 
 --- task ---
 
@@ -42,7 +42,7 @@ oranje.blink(2, 2)
 groen.blink (3, 3)
 ```
 
--- /task ---
+--- /task ---
 
 --- task ---
 
