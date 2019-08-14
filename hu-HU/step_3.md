@@ -1,57 +1,57 @@
-## Control the LEDs
+## Vezéreld a LED-eket
 
 \--- task \---
 
-Open **Mu** from the main menu.
+Indítsd el a **Mu**-t a főmenüből.
 
 \--- /task \---
 
 \--- task \---
 
-Enter the following code:
+Írd be az alábbi kódot:
 
 ```python
 from gpiozero import LED
 
-red = LED(22)
+piros = LED(22)
 
-red.blink()
+piros.blink()
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+Mentsd el a programot és nyomd meg az **F5**-öt, hogy futtasd a kódodat. Most láthatod, hogy a piros lámpa fénye folyamatosan ki-be kapcsol.
 
 \--- /task \---
 
 \--- task \---
 
-Now modify your code to introduce the other two lights, and make them blink at different speeds:
+Most változtass a kódodon: add hozzá a másik két lámpát, és állítsd be, hogy különböző sebességgel villogjanak:
 
 ```python
 from gpiozero import LED
 
-red = LED(22)
-amber = LED(27)
-green = LED(17)
+piros = LED(22)
+sarga = LED(27)
+zold = LED(17)
 
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+piros.blink(1, 1)
+sarga.blink(2, 2)
+zold.blink(3, 3)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run your code again and you should see the three lights flashing at different rates.
+Futtasd újra a kódot, és látni fogod, hogy a három lámpa különböző sebességgel villog.
 
 \--- /task \---
 
 \--- task \---
 
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+Ha egy nagyobb szám a lámpa villogását lassítja, akkor milyen szám gyorsítja a fényeket? Próbáld meg gyorsítani a fények villogását.
 
 \--- /task \---
