@@ -1,57 +1,57 @@
-## Control the LEDs
+## Contrôlez les DELs
 
-\--- task \---
+\---tâche\---
 
 Open **Mu** from the main menu.
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
-Enter the following code:
-
-```python
-from gpiozero import LED
-
-red = LED(22)
-
-red.blink()
-```
-
-\--- /task \---
-
-\--- task \---
-
-Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
-
-\--- /task \---
-
-\--- task \---
-
-Now modify your code to introduce the other two lights, and make them blink at different speeds:
+Entrez le code suivant:
 
 ```python
 from gpiozero import LED
 
-red = LED(22)
-amber = LED(27)
-green = LED(17)
+rouge = LED(22)
 
-red.blink(1, 1)
-amber.blink(2, 2)
-green.blink(3, 3)
+rouge.blink()
 ```
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
-Run your code again and you should see the three lights flashing at different rates.
+Maintenant, sauvegardez votre programme et appuyez sur **F5** pour faire exécuter votre code. Vous devriez voir le feux rouge clignoter continuellement.
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+Maintenant modifiez votre code pour y ajouter les deux autres feux et faites les clignoter à différentes vitesses:
 
-\--- /task \---
+```python
+from gpiozero import LED
+
+rouge = LED(22)
+jaune = LED(27)
+vert = LED(17)
+
+rouge.blink(1, 1)
+jaune.blink(2, 2)
+vert.blink(3, 3)
+```
+
+\---tâche\---
+
+\---tâche\---
+
+Exécutez votre code à nouveau et vous devriez voir les trois feux clignoter à des vitesses différentes.
+
+\---tâche\---
+
+\---tâche\---
+
+Si un nombre plus élevé fait clignoter un feux plus lentement, quel nombre le ferait clignoter plus rapidement? Essayez de faire clignoter vos feux plus rapidement.
+
+\---tâche\---
