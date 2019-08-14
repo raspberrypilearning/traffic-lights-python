@@ -10,6 +10,6 @@ Verbind je LED's met de volgende pinnen:
 | Oranje/geel |    27    |
 | Groen       |    17    |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![pi stop verkeerslicht verbonden met gpio 22,27,17 en massa (ground)](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
