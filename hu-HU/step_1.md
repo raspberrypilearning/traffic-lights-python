@@ -1,19 +1,19 @@
 ## Bevezetés
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python.
+Tanulj meg egy LED-ekből épített jelzőlámpát vezérelni és programozni Pythonnal.
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Amire szükséged lesz
 
-- Raspberry Pi computer
-- LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+- Raspberry Pi számítógép
+- LED-ek: 
+    - pi-stop jelzőlámpa-lap
+    - vagy 3 LED és ellenállás
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+Fel kell telepítened a Mu-t. Nyiss meg egy Terminál ablakot, majd írd be az alábbi parancsot:
 
 ```bash
 sudo apt install mu-editor
@@ -25,10 +25,10 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: Amit meg fogsz tanulni
 
-- Controlling your Raspberry Pi's GPIO pins using Python
-- Using LEDs with your Raspberry Pi
+- A Raspberry Pi GPIO tűinek vezérlése Pythonban
+- LED-ek használata a Raspberry Pi-jal
 
 \--- /collapse \---
 
@@ -36,11 +36,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## title: Információ Jam szervezőknek
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf) is available. Please observe any notes on this page before printing.
+Ha ki kell nyomtatnod a projektet, elérhető egy [PDF verzió](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf). Olvass el minden megjegyzést ezen az oldalon a nyomtatás előtt.
 
 \--- /no-print \---
 
