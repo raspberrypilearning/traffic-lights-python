@@ -1,5 +1,5 @@
 ---
-title: Traffic Lights with Python
+title: Közlekedési lámpák Pythonnal
 hero_image: images/banner.png
 description: Tanulj meg egy LED-ekből épített jelzőlámpát vezérlni és programozni Python-nal
 listed: false
@@ -10,8 +10,8 @@ steps:
   - 
     title: Bevezetés
   - 
-    title: Connect the LEDs
+    title: Csatlakoztasd a LED-eket
   - 
-    title: Control the LEDs
+    title: Vezéreld a LED-eket
   - 
-    title: Traffic lights sequence
+    title: Közlekedési lámpák ciklusa
