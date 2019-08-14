@@ -1,52 +1,52 @@
-## Traffic lights sequence
+## Séquence de feux de signalisation
 
-\--- task \---
+\---tâche\---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+La fonction `on` vous permet d'allumer un feux. Vous pouvez utiliser `sleep` pour faire une pause entre les commandes. Essayez cet exemple pour allumer les feux en séquence:
 
 ```python
 from gpiozero import LED
 from time import sleep
 
-red = LED(22)
-amber = LED(27)
-green = LED(17)
+rouge = LED(22)
+jaune = LED(27)
+vert = LED(17)
 
-red.on()
+rouge.on()
 sleep(1)
-amber.on()
+jaune.on()
 sleep(1)
-green.on()
+vert.on()
 sleep(1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+Les commandes principales pour les DELs sont `on`, `off`, `toggle` et `blink`.
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
-Try turning the lights on and off in sequence:
+Essayez d'allumer et d'éteindre les feux en séquence:
 
 ```python
-red.on()
+rouge.on()
 sleep(1)
-amber.on()
+jaune.on()
 sleep(1)
-green.on()
+vert.on()
 sleep(1)
-red.off()
+rouge.off()
 sleep(1)
-amber.off()
+jaune.off()
 sleep(1)
-green.off()
+vert.off()
 ```
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
-Try repeating this by putting the code inside a `while` loop:
+Essayez de répéter ceci en plaçant le code dans une boucle `while`:
 
 ```python
 while True:
@@ -63,20 +63,20 @@ while True:
     green.off()
 ```
 
-\--- /task \---
+\---tâche\---
 
-\--- task \---
+\---tâche\---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Maintenant vous savez comment contrôler les feux individuellement et ajuster les poses entre les commandes. Pouvez-vous créer une séquence de feux de circulation? Voici la séquence:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Vert allumé
+- Jaune on
+- Rouge on
+- Rouge et ambre allumés
+- Vert allumé
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Il est important de penser à la durée de chacun des feux. Combien de temps chaque feux devrait-il rester allumé?
 
-\--- /task \---
+\---tâche\---
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+Une fois que vous aurez complété la séquence de feux de circulation, vous pourriez essayer d'y ajouter un bouton ou un avertisseur sonore pour la rendre interactive.
