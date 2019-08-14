@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Open **Mu** from the main menu.
+Open **Mu** vanuit het hoofdmenu.
 
 \---/task\---
 
