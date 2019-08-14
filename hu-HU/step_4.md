@@ -1,82 +1,82 @@
-## Traffic lights sequence
+## A közlekedési lámpa ciklusa
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+Az `on` függvény bekapcsolja a lámpát. A `sleep` parancsot használhatod, hogy a szünetet tegyél két parancs közé. Próbáld ki ezt a példát, a lámpák sorrendben fognak bekapcsolni:
 
 ```python
 from gpiozero import LED
 from time import sleep
 
-red = LED(22)
-amber = LED(27)
-green = LED(17)
+piros = LED(22)
+sarga = LED(27)
+zold = LED(17)
 
-red.on()
-sleep(1)
-amber.on()
-sleep(1)
-green.on()
+piros.on()
+sleep (1)
+sarga.on()
+sleep (1)
+zold.on()
 sleep(1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+A LED-eket ezekkel a parancsokkal lehet vezérelni: `on`, `off`, `toggle` és `blink`. Az 'on' bekapcsolja, az 'off' kikapcsolja, a 'toggle' változtatja (ha be volt kapcsolva, ki kapcsolja; ha ki volt kapcsolva, bekapcsolja) és a 'blink' villogtatja a fényeket.
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+Próbáld meg sorrendben ki-be kapcsolni a lámpákat:
 
 ```python
-red.on()
+piros.on()
 sleep(1)
-amber.on()
+sarga.on()
 sleep(1)
-green.on()
+zold.on()
 sleep(1)
-red.off()
+piros.off()
 sleep(1)
-amber.off()
+sarga.off()
 sleep(1)
-green.off()
+zold.off()
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+Próbáld ezt megismételni úgy, hogy belerakod a kódot egy `while` ciklusba:
 
 ```python
 while True:
-    red.on()
+    piros.on()
     sleep(1)
-    amber.on()
+    sarga.on()
     sleep(1)
-    green.on()
+    zold.on()
     sleep(1)
-    red.off()
+    piros.off()
     sleep(1)
-    amber.off()
+    sarga.off()
     sleep(1)
-    green.off()
+    zold.off()
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Most, hogy már tudod, hogyan kell egyenként vezérelni a fényeket, és hogyan lehet szünetet rakni a parancsok közé, menni fog a jelzőlámpa? A fények sorrendje:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Zöld bekapcsol
+- Sárga bekapcsol
+- Piros bekapcsol
+- Piros és sárga bekapcsol
+- Zöld bekapcsol
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Fontos, hogy gondolj az időzítésre. Mennyi ideig világítsanak a fények a szakaszokban?
 
 \--- /task \---
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+Miután befejezted a jelzőlámpát, hozzáadhatsz egy gombot és egy berregőt, így készíthetsz egy interaktív változatot.
