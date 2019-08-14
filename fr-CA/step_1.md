@@ -1,8 +1,8 @@
 ## Introduction
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python.
+Apprenez à contrôler les DELs du feu et à coder une séquence de feux de signalisation avec Python.
 
-\--- collapse \---
+Effondrement
 
 * * *
 
@@ -19,9 +19,9 @@ You'll need to install Mu. Open a Terminal window and type the following command
 sudo apt install mu-editor
 ```
 
-\--- /collapse \---
+Effondrement
 
-\--- collapse \---
+Effondrement
 
 * * *
 
@@ -30,9 +30,9 @@ sudo apt install mu-editor
 - Controlling your Raspberry Pi's GPIO pins using Python
 - Using LEDs with your Raspberry Pi
 
-\--- /collapse \---
+Effondrement
 
-\--- collapse \---
+Effondrement
 
 * * *
 
@@ -44,4 +44,4 @@ If you need to print this project, a [PDF version](https://github.com/raspberryp
 
 \--- /no-print \---
 
-\--- /collapse \---
+Effondrement
