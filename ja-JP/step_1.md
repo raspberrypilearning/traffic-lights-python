@@ -1,19 +1,19 @@
 ## はじめに
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python.
+Pythonを使って、信号灯のLEDを制御したり、決まった順番に(シーケンス)点灯させるコーディングの方法を学びます。
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: 必要なもの
 
-- Raspberry Pi computer
-- LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+- Raspberry Pi コンピュータ
+- LED: 
+    - pi-stop 信号灯ボード
+    - またはLEDと抵抗器各3本
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+Muをインストールする必要があります。 ターミナルウィンドウを開き、次のコマンドをタイプします。
 
 ```bash
 sudo apt install mu-editor
@@ -25,10 +25,10 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: 学ぶこと
 
-- Controlling your Raspberry Pi's GPIO pins using Python
-- Using LEDs with your Raspberry Pi
+- Raspberry PiのGPIOピンをPythonでコントロールすること
+- Raspberry PiでLEDを使うこと
 
 \--- /collapse \---
 
@@ -36,11 +36,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## title: Raspberry Jam 主催者のための情報
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf) is available. Please observe any notes on this page before printing.
+このプロジェクトを印刷する必要がある場合は、[PDFバージョン](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf)が使えます。 印刷する前にこのページにある注意書きをよく読んでください。
 
 \--- /no-print \---
 
