@@ -1,8 +1,8 @@
-## Traffic lights sequence
+## 信号灯のシーケンス点灯
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Try this example to turn the lights on in sequence:
+`on`関数でライトを点灯させることができます。 `sleep`関数を使って、処理を一時停止できます。 次のコードを実行して、ライトを順番に点灯させてみてください：
 
 ```python
 from gpiozero import LED
@@ -20,13 +20,13 @@ green.on()
 sleep(1)
 ```
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+LEDの主な制御方法は、`on`(点灯)、`off`(消灯)、`toggle`(反転)と `blink`(点滅)になります。
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+LEDを順番に点灯、消灯してみてください：
 
 ```python
 red.on()
@@ -46,7 +46,7 @@ green.off()
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+このコードを`while`ループの中に入れて、処理を繰り返してみてください：
 
 ```python
 while True:
@@ -67,16 +67,16 @@ while True:
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+これでLEDを個別に制御する方法と、点灯や消灯の時間を指定する方法が分かりましたね。では信号灯を決めた順番でつけたり消したりすることができますか？ 順番は次のとおりにします。
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- 緑を点灯
+- アンバーを点灯
+- 赤を点灯
+- 赤とアンバーを点灯
+- 緑を点灯
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+タイミングについて考えることが重要です。 各順番でどれくらいの時間LEDを点灯させますか？
 
 \--- /task \---
 
-Once you have completed the traffic lights sequence, you might want to try adding in a button and a buzzer to make an interactive version.
+信号灯のシーケンス作成を完了したら、ボタンとブザーを追加して、見るだけでなく操作できるバージョンも作りたくなるかもしれませんね。
