@@ -1,15 +1,15 @@
-## Connect the LEDs
+## LEDを接続する
 
 \--- task \---
 
-Connect your LEDs to the following pins:
+LEDを以下のピンに接続します。
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| LED  | GPIOピン |
+| ---- |:------:|
+| 赤    |   22   |
+| アンバー |   27   |
+| 緑    |   17   |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![gpio 22,27,17とグラウンドに接続されたpi stop 信号灯ボード](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
