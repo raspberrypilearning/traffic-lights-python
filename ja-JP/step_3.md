@@ -1,14 +1,14 @@
-## Control the LEDs
+## LEDを制御する
 
 \--- task \---
 
-Open **Mu** from the main menu.
+メインメニューから**Mu**を開きます。
 
 \--- /task \---
 
 \--- task \---
 
-Enter the following code:
+以下のコードを入力します。
 
 ```python
 from gpiozero import LED
@@ -22,13 +22,13 @@ red.blink()
 
 \--- task \---
 
-Now save your program and press **F5** to run your code. You should see the red light flash on and off continuously.
+ファイルを保存し、**F5**キーを押してコードを実行します。 赤いライトが連続的に点滅するはずです。
 
 \--- /task \---
 
 \--- task \---
 
-Now modify your code to introduce the other two lights, and make them blink at different speeds:
+さらに他の2つのLEDも使えるようにコードを追加し、それらのLEDが異なる速度で点滅するようにします。
 
 ```python
 from gpiozero import LED
@@ -46,12 +46,12 @@ green.blink(3, 3)
 
 \--- task \---
 
-Run your code again and you should see the three lights flashing at different rates.
+もう一度コードを実行すると、3つのライトが異なる速度で点滅します。
 
 \--- /task \---
 
 \--- task \---
 
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+大きい数字の指定でLEDの点滅が遅くなるなら、点滅を速くするにはどのような数字を指定すればよいでしょう？ LEDの点滅を速くするようにしてみましょう。
 
 \--- /task \---
