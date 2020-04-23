@@ -1,23 +1,13 @@
 ---
-title: Control a Traffic Lights Sequence with Python
+title: Pythonによる信号灯
 hero_image: images/banner.png
 description: 信号灯のLEDを制御する方法と、Pythonを使用して信号灯のシーケンスを記述する方法
-theme: red
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
-interests: ''
-technologies: electronic-components, python
-site_areas: jam
-hardware: electronic-components
-software: python
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: 前書き
-- title: あなたが必要とするもの
-- title: LEDを接続する
-- title: LEDの制御
-- title: 交通信号のシーケンス
+version: 4.1
+last_tested: 2018-11-21
+steps:
+  - title: 前書き
+  - title: LEDを接続する
+  - title: LEDを操作する
+  - title: 信号灯のシーケンス点灯
