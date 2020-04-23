@@ -1,19 +1,19 @@
 ## Въведение
 
-Learn to control traffic light LEDs and code a traffic lights sequence using Python.
+Научете се да контролирате светлините на светофара и да кодирате тяхната последователност като използвате Python.
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Какво ще ви трябва
 
 - Raspberry Pi computer
-- LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+- Светодиоди: 
+    - pi-stop платка за светофар
+    - или 3х светодиода и резистора
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+Вие ще трябва да инсталирате Mu. Отворете терминален прозорец и напишете следната команда:
 
 ```bash
 sudo apt install mu-editor
@@ -25,10 +25,10 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: Какво ще научите
 
-- Controlling your Raspberry Pi's GPIO pins using Python
-- Using LEDs with your Raspberry Pi
+- Контролиране на GPIO пиновете на вашия Raspberry Pi използвайки Python
+- Използване на светодиоди с вашия Raspberry Pi
 
 \--- /collapse \---
 
@@ -36,11 +36,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## title: Информация за Jam организатори
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf) is available. Please observe any notes on this page before printing.
+Ако имате нужда да принтирате този проект, налична е [PDF версия](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf). Моля обърнете внимание на бележките преди принтиране на страницата.
 
 \--- /no-print \---
 
