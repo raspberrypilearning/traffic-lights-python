@@ -1,5 +1,5 @@
 ---
-title: Traffic Lights with Python
+title: Светофари с Python
 hero_image: изображения / banner.png
 description: Научете се да управлявате светодиодите със светофар и да кодирате последователността на светофарите с помощта на Python
 listed: false
@@ -10,8 +10,8 @@ steps:
   - 
     title: Въведение
   - 
-    title: Connect the LEDs
+    title: Свържете светодиодите
   - 
-    title: Control the LEDs
+    title: Контролирайте светодиодите
   - 
-    title: Traffic lights sequence
+    title: Подредба на светофарите
