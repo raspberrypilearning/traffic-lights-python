@@ -32,11 +32,15 @@ title: What you will learn
 title: Information for Jam organisers
 ---
 
-You can download the complete code for this project at [rpf.io/p/en/traffic-lights-scratch2-get](https://rpf.io/p/en/traffic-lights-python-get).
-
 --- no-print ---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf) is available. Please observe any notes on this page before printing.
+We have two PDFs that cover the 3 projects in our [Python traffic lights path](https://projects.raspberrypi.org/en/pathways/python-traffic-lights){:target="_blank"}. One shows how to connect using LEDs and the other using a pi-stop. Each PDF covers different elements of our projects like adding a button, buzzer and GUI.
+
+Our PDF versions are: 
++ [Interactive traffic lights with Python and LEDS](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Python.pdf). 
++ [Traffic lights with controller GUI using a pi-stop](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Interactive-Traffic-Lights-Python.pdf).
+
+Please observe any notes on this page before printing. 
 
 --- /no-print ---
 
