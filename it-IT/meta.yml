@@ -15,9 +15,11 @@ hardware: electronic-components
 software: python
 version: 4
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduzione
+  completion: engaged
 - title: Cosa ti serve
 - title: Collega i LED
+  completion: internal
 - title: Controlla i LED
 - title: La sequenza del semaforo
