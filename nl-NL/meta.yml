@@ -1,13 +1,14 @@
 ---
 title: Verkeerslichten met Python
 hero_image: images/banner.png
-description: Leer een verkeerslicht te besturen en te programmeren met behulp van Python
+description: Leer een verkeerslicht te besturen en te programmeren met behulp van
+  Python
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
-  - title: Inleiding
-  - title: Verbind de LED's
-  - title: Bedien de LED's
-  - title: Verkeerslicht volgorde
+- title: Inleiding
+- title: Verbind de LED's
+- title: Bedien de LED's
+- title: Verkeerslicht volgorde

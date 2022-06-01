@@ -7,7 +7,7 @@ copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
-  - title: 前書き
-  - title: LEDを接続する
-  - title: LEDを操作する
-  - title: 信号灯のシーケンス点灯
+- title: 前書き
+- title: LEDを接続する
+- title: LEDを操作する
+- title: 信号灯のシーケンス点灯

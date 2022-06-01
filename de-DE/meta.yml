@@ -1,7 +1,8 @@
 ---
 title: Steuere eine Verkehrsampel-Sequenz mit Python
 hero_image: images/banner.png
-description: Lerne die LEDs einer Verkehrsampel zu steuern und eine Lichtreihenfolge mit Python zu programmieren
+description: Lerne die LEDs einer Verkehrsampel zu steuern und eine Lichtreihenfolge
+  mit Python zu programmieren
 theme: red
 duration: 2
 listed: false
@@ -15,7 +16,7 @@ hardware: electronic-components
 software: python
 version: 4
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Einleitung
 - title: Was du brauchen wirst
 - title: Verbinde die LEDs

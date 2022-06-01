@@ -15,7 +15,7 @@ hardware: electronic-components
 software: python
 version: 4
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduzione
 - title: Cosa ti serve
 - title: Collega i LED
