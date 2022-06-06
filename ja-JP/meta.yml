@@ -8,8 +8,6 @@ version: 4.1
 last_tested: 2018-11-21
 steps:
 - title: 前書き
-  completion: engaged
 - title: LEDを接続する
 - title: LEDを操作する
-  completion: internal
 - title: 信号灯のシーケンス点灯
